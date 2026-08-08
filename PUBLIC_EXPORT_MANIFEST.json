@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-08-08T01:12:37Z",
+  "created_at": "2026-08-08T01:17:52Z",
   "excluded_categories": [
     "source acquisition and scraping",
     "raw, cache, interim, and curation data",
@@ -27,13 +27,13 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "df498e48eefbc50e7478a21166691471c9c9c4587aae00832b5905015f86c875",
-      "size_bytes": 568
+      "sha256": "d4d75180fbf282b92d78a93fd1610204ab7a16c4d5392c34d41508c8f95e7e42",
+      "size_bytes": 481
     },
     {
       "path": ".github/workflows/pages.yml",
-      "sha256": "db47565af2174c437317f1daba1329474ac79cb94b793163950e1761ae7ad41d",
-      "size_bytes": 1113
+      "sha256": "65a4bdb3fcfbbdafc5f775091a9b40a9e8913dfa9c277314903198b51906f5bc",
+      "size_bytes": 1026
     },
     {
       "path": ".gitignore",
@@ -585,7 +585,7 @@
   "official_private_holdout_included": false,
   "public_release_status": "development_public_gold",
   "schema_version": "sanctionbench.public_export.v1",
-  "source_internal_commit": "1022c7db934ccce16225578c85e2e9b6d101a73f",
+  "source_internal_commit": "52d01832bfb3b89ad661b35f63d7cda545a04a7e",
   "source_internal_dirty": false,
   "warning": "This is public development gold. Mock and self-reported results are not official; official evaluation requires an organizer-run private holdout."
 }
