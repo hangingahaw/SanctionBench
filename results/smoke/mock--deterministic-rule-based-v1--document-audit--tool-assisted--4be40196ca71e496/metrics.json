@@ -1,0 +1,178 @@
+{
+  "binary": {
+    "f0_5": 0.909091,
+    "false_negative": 0,
+    "false_positive": 1,
+    "false_positive_rate": 0.083333,
+    "precision": 0.888889,
+    "recall": 1.0,
+    "specificity": 0.916667,
+    "true_negative": 11,
+    "true_positive": 8
+  },
+  "by_document": {
+    "sb-v1-document-001": {
+      "authority_count": 20,
+      "clean_audit": true,
+      "fake_count": 8,
+      "fake_recall": 1.0,
+      "false_negative": 0,
+      "false_positive": 1,
+      "false_positive_rate": 0.083333,
+      "real_count": 12,
+      "safety_score": 100.0,
+      "true_negative": 11,
+      "true_positive": 8,
+      "zero_false_positive": false
+    }
+  },
+  "by_source": {
+    "Kessler v. City of Atwater": {
+      "binary_false_positive_rate": 0.0,
+      "binary_recall": 1.0,
+      "correct": 1,
+      "exact_accuracy": 0.5,
+      "fake_support": 1,
+      "incorrect": 1,
+      "real_support": 1,
+      "support": 2,
+      "true_negative": 1,
+      "true_positive": 1
+    },
+    "Mata v. Avianca, Inc": {
+      "binary_false_positive_rate": 0.25,
+      "binary_recall": 0.0,
+      "correct": 3,
+      "exact_accuracy": 0.75,
+      "false_positive": 1,
+      "incorrect": 1,
+      "real_support": 4,
+      "support": 4,
+      "true_negative": 3
+    },
+    "Powhatan County School Board v. Skinger et al": {
+      "binary_false_positive_rate": 0.0,
+      "binary_recall": 1.0,
+      "correct": 13,
+      "exact_accuracy": 0.928571,
+      "fake_support": 7,
+      "incorrect": 1,
+      "real_support": 7,
+      "support": 14,
+      "true_negative": 7,
+      "true_positive": 7
+    }
+  },
+  "calibration": {
+    "bins": [
+      {
+        "count": 11,
+        "empirical_fake_rate": 0.0,
+        "lower": 0.1,
+        "mean_fake_probability": 0.18,
+        "upper": 0.2
+      },
+      {
+        "count": 1,
+        "empirical_fake_rate": 1.0,
+        "lower": 0.8,
+        "mean_fake_probability": 0.82,
+        "upper": 0.9
+      },
+      {
+        "count": 8,
+        "empirical_fake_rate": 0.875,
+        "lower": 0.9,
+        "mean_fake_probability": 0.94,
+        "upper": 1.0
+      }
+    ],
+    "brier_score": 0.06488,
+    "expected_calibration_error_10_bin": 0.134
+  },
+  "distractor_robustness": {
+    "duplicate_real_item_count": 0,
+    "item_false_positive_rate": 0.083333,
+    "maximum_authority_multiplicity": 1,
+    "real_item_count": 12,
+    "unique_authority_macro_false_positive_rate": 0.083333,
+    "unique_real_authority_count": 12
+  },
+  "document_count": 1,
+  "document_operational": {
+    "clean_audit_rate": 1.0,
+    "definition": "macro_document_hallucination_recall",
+    "documents_with_false_positive": 1,
+    "extra_verifications_per_document": 1.0,
+    "false_accusations_per_100_real_authorities": 8.333333,
+    "macro_fake_recall": 1.0,
+    "name": "DocumentSanctionScore",
+    "score": 100.0,
+    "zero_false_positive_document_rate": 0.0
+  },
+  "four_way": {
+    "exact_accuracy": 0.85,
+    "per_class": {
+      "fabricated_quote": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1
+      },
+      "misattributed_holding": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1
+      },
+      "nonexistent_case": {
+        "f1": 0.857143,
+        "precision": 0.75,
+        "recall": 1.0,
+        "support": 6
+      },
+      "real": {
+        "f1": 0.956522,
+        "precision": 1.0,
+        "recall": 0.916667,
+        "support": 12
+      }
+    },
+    "uncertain_prediction_count": 0
+  },
+  "headline": {
+    "definition": "hallucination_recall",
+    "false_negative_count": 0,
+    "name": "SanctionScore",
+    "normalization_fake_count": 8,
+    "score": 100.0
+  },
+  "item_count": 20,
+  "macro_by_source": {
+    "binary_false_positive_rate": 0.083333,
+    "binary_recall": 0.666667,
+    "exact_accuracy": 0.72619,
+    "source_count": 3
+  },
+  "operating_points": {
+    "recall_at_fpr_1_percent": {
+      "maximum_fpr": 0.01,
+      "observed_fpr": 0.0,
+      "recall": 0.0,
+      "threshold": 1.000001
+    },
+    "recall_at_fpr_5_percent": {
+      "maximum_fpr": 0.05,
+      "observed_fpr": 0.0,
+      "recall": 0.0,
+      "threshold": 1.000001
+    }
+  },
+  "review_workload": {
+    "extra_verification_count": 1,
+    "false_accusations_per_100_real_authorities": 8.333333,
+    "verification_overhead_rate": 0.083333
+  },
+  "schema_version": "sanctionbench.document_metrics.v1",
+  "scored_at": "2026-08-07T23:51:46Z"
+}

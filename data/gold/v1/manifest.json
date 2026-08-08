@@ -1,0 +1,57 @@
+{
+  "citation_items_file": "data/gold/v1/citation_items.jsonl",
+  "citation_items_sha256": "5241f8f9e79c3b4cdfa033a5423c47c6bd2758098113353ca25e54562f748607",
+  "created_at": "2026-07-11T00:30:46Z",
+  "curation_file": "data/curation/organic_items.jsonl",
+  "curation_sha256": "c76562b6596b3c32fd5ca5f9144b0f456c57ec354661baea96696632293eac2e",
+  "document_authority_count": 196,
+  "document_scenario_count": 10,
+  "document_scenarios_file": "data/gold/v1/document_scenarios.jsonl",
+  "document_scenarios_sha256": "d18c944f1e7f54d2343af80297282646686ceae9c282a879e6d991f273529bce",
+  "fake_count": 76,
+  "free_organic_briefs_acquired": 4,
+  "item_count": 152,
+  "label_counts": {
+    "fabricated_quote": 2,
+    "misattributed_holding": 17,
+    "nonexistent_case": 57,
+    "real": 76
+  },
+  "memorization_probe_count": 18,
+  "memorization_probes_file": "data/gold/v1/memorization_probes.jsonl",
+  "memorization_probes_sha256": "8026c49660dc8133c650bf6873f2f0e1fbad35156b185f0ec1eebd7047a94992",
+  "organic_source_counts": {
+    "Kessler v. City of Atwater": 15,
+    "Mata v. Avianca, Inc": 18,
+    "Powhatan County School Board v. Skinger et al": 43
+  },
+  "pair_count": 76,
+  "provenance_fake_page_checks": 76,
+  "provenance_order_file_count": 3,
+  "provenance_validation": "sha256+excerpt+one_based_page_authority",
+  "publication_note": "Every included item passed the declared CourtListener search check. Raw source PDFs and party filings remain quarantined.",
+  "real_count": 76,
+  "real_distractor_diversity": {
+    "duplicate_real_item_count": 21,
+    "maximum_authority_multiplicity": 2,
+    "real_item_count": 76,
+    "unique_real_authority_count": 55
+  },
+  "release_status": "development_public_gold",
+  "schema_version": "sanctionbench.gold_manifest.v1",
+  "source_concentration": {
+    "herfindahl_hirschman_index": 0.415166,
+    "largest_source_count": 43,
+    "largest_source_share": 0.565789,
+    "source_count": 3
+  },
+  "source_csv_sha256": "f2c347d1d2a46b344361ef3d1125fddef5e2b433d98fe4d49a6569708b0b21fa",
+  "source_snapshot_date": "2026-07-11",
+  "verification_status_counts": {
+    "confirmed_exists": 76,
+    "confirmed_mismatch": 46,
+    "confirmed_not_found": 28,
+    "confirmed_quote_not_found": 2
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,13 @@
+dataset: data/gold/v1/citation_items.jsonl
+document_dataset: data/gold/v1/document_scenarios.jsonl
+output_dir: results/smoke-local
+providers:
+  - provider: mock
+    model: deterministic-rule-based-v1
+conditions:
+  - closed_book
+  - tool_assisted
+max_items: 24
+max_document_scenarios: 1
+seed: 20260711
+resume: true

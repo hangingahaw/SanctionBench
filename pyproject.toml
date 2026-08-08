@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools==83.0.0", "wheel==0.46.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sanctionbench"
+version = "1.0.0"
+description = "A benchmark for catching hallucinated legal authorities without accusing real ones"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "Apache-2.0"
+authors = [{name = "Haihang Wang"}]
+dependencies = [
+  "anthropic==0.57.1",
+  "eyecite==2.7.6",
+  "google-genai==1.25.0",
+  "httpx==0.28.1",
+  "openai==1.95.1",
+  "pydantic==2.11.7",
+  "PyYAML==6.0.2",
+  "rich==14.0.0",
+  "tenacity==8.5.0",
+  "typer==0.16.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build==1.5.0",
+  "mypy==1.16.1",
+  "pytest==9.0.3",
+  "pytest-cov==6.2.1",
+  "respx==0.22.0",
+  "ruff==0.12.3",
+  "types-PyYAML==6.0.12.20250516",
+]
+
+[project.scripts]
+sanctionbench = "sanctionbench.public_cli:app"
+
+[project.urls]
+Homepage = "https://github.com/hangingahaw/SanctionBench"
+Repository = "https://github.com/hangingahaw/SanctionBench"
+Documentation = "https://github.com/hangingahaw/SanctionBench#readme"
+Leaderboard = "https://hangingahaw.github.io/SanctionBench/"
+Issues = "https://github.com/hangingahaw/SanctionBench/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["sanctionbench"]

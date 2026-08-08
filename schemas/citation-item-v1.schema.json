@@ -1,0 +1,333 @@
+{
+  "$defs": {
+    "GoldLabel": {
+      "enum": [
+        "real",
+        "nonexistent_case",
+        "fabricated_quote",
+        "misattributed_holding"
+      ],
+      "title": "GoldLabel",
+      "type": "string"
+    },
+    "SourceProvenance": {
+      "additionalProperties": false,
+      "properties": {
+        "database_name": {
+          "title": "Database Name",
+          "type": "string"
+        },
+        "database_row_key": {
+          "title": "Database Row Key",
+          "type": "string"
+        },
+        "database_url": {
+          "title": "Database Url",
+          "type": "string"
+        },
+        "extraction_method": {
+          "title": "Extraction Method",
+          "type": "string"
+        },
+        "offending_document_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Offending Document Sha256"
+        },
+        "offending_document_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Offending Document Url"
+        },
+        "order_excerpt": {
+          "maxLength": 600,
+          "title": "Order Excerpt",
+          "type": "string"
+        },
+        "order_page": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Order Page"
+        },
+        "order_sha256": {
+          "title": "Order Sha256",
+          "type": "string"
+        },
+        "order_url": {
+          "title": "Order Url",
+          "type": "string"
+        },
+        "reviewed_by": {
+          "default": "SanctionBench maintainers",
+          "title": "Reviewed By",
+          "type": "string"
+        }
+      },
+      "required": [
+        "database_name",
+        "database_row_key",
+        "database_url",
+        "order_url",
+        "order_sha256",
+        "order_excerpt",
+        "extraction_method"
+      ],
+      "title": "SourceProvenance",
+      "type": "object"
+    },
+    "VerificationEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "checked_at": {
+          "title": "Checked At",
+          "type": "string"
+        },
+        "exact_match_found": {
+          "title": "Exact Match Found",
+          "type": "boolean"
+        },
+        "limitations": {
+          "title": "Limitations",
+          "type": "string"
+        },
+        "matched_urls": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Matched Urls",
+          "type": "array"
+        },
+        "provider": {
+          "const": "courtlistener_v4_search",
+          "default": "courtlistener_v4_search",
+          "title": "Provider",
+          "type": "string"
+        },
+        "queries": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Queries",
+          "type": "array"
+        },
+        "response_retrieved_at": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Response Retrieved At",
+          "type": "array"
+        },
+        "response_sha256": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Response Sha256",
+          "type": "array"
+        },
+        "result_counts": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Result Counts",
+          "type": "array"
+        },
+        "result_summaries": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Result Summaries",
+          "type": "array"
+        },
+        "status": {
+          "enum": [
+            "confirmed_exists",
+            "confirmed_not_found",
+            "confirmed_quote_not_found",
+            "confirmed_mismatch"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "checked_at",
+        "queries",
+        "result_counts",
+        "exact_match_found",
+        "status",
+        "response_sha256",
+        "limitations",
+        "response_retrieved_at"
+      ],
+      "title": "VerificationEvidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "binary_gold": {
+      "enum": [
+        "real",
+        "fake"
+      ],
+      "title": "Binary Gold",
+      "type": "string"
+    },
+    "case_name": {
+      "maxLength": 500,
+      "minLength": 1,
+      "title": "Case Name",
+      "type": "string"
+    },
+    "citation": {
+      "maxLength": 1000,
+      "minLength": 1,
+      "title": "Citation",
+      "type": "string"
+    },
+    "database_entry_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Database Entry Date"
+    },
+    "database_entry_date_status": {
+      "enum": [
+        "provided",
+        "not_provided_by_source"
+      ],
+      "title": "Database Entry Date Status",
+      "type": "string"
+    },
+    "famous_case": {
+      "default": false,
+      "title": "Famous Case",
+      "type": "boolean"
+    },
+    "first_observed_snapshot_date": {
+      "title": "First Observed Snapshot Date",
+      "type": "string"
+    },
+    "gold_label": {
+      "$ref": "#/$defs/GoldLabel"
+    },
+    "item_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Item Id",
+      "type": "string"
+    },
+    "jurisdiction": {
+      "maxLength": 200,
+      "title": "Jurisdiction",
+      "type": "string"
+    },
+    "matched_pair_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Matched Pair Id",
+      "type": "string"
+    },
+    "proposition": {
+      "maxLength": 20000,
+      "title": "Proposition",
+      "type": "string"
+    },
+    "provenance": {
+      "$ref": "#/$defs/SourceProvenance"
+    },
+    "schema_version": {
+      "const": "sanctionbench.citation.v1",
+      "default": "sanctionbench.citation.v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_case_name": {
+      "maxLength": 500,
+      "title": "Source Case Name",
+      "type": "string"
+    },
+    "source_decision_date": {
+      "title": "Source Decision Date",
+      "type": "string"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 64,
+      "title": "Tags",
+      "type": "array"
+    },
+    "task_type": {
+      "const": "citation_verification",
+      "default": "citation_verification",
+      "title": "Task Type",
+      "type": "string"
+    },
+    "temporal_bucket": {
+      "maxLength": 200,
+      "title": "Temporal Bucket",
+      "type": "string"
+    },
+    "track": {
+      "enum": [
+        "organic",
+        "matched_real"
+      ],
+      "title": "Track",
+      "type": "string"
+    },
+    "verification": {
+      "$ref": "#/$defs/VerificationEvidence"
+    }
+  },
+  "required": [
+    "item_id",
+    "citation",
+    "case_name",
+    "proposition",
+    "gold_label",
+    "binary_gold",
+    "track",
+    "matched_pair_id",
+    "jurisdiction",
+    "source_case_name",
+    "source_decision_date",
+    "database_entry_date",
+    "database_entry_date_status",
+    "first_observed_snapshot_date",
+    "temporal_bucket",
+    "provenance",
+    "verification"
+  ],
+  "title": "CitationItem",
+  "type": "object"
+}

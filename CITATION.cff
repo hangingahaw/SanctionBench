@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use SanctionBench, cite the software release and its archived benchmark manifest."
+title: "SanctionBench"
+type: software
+version: 1.0.0
+date-released: 2026-08-07
+authors:
+  - family-names: "Wang"
+    given-names: "Haihang"
+repository-code: "https://github.com/hangingahaw/SanctionBench"
+url: "https://github.com/hangingahaw/SanctionBench"
+license: Apache-2.0

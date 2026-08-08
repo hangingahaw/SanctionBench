@@ -1,0 +1,45 @@
+name: Model submission
+description: Request an organizer-run SanctionBench evaluation
+title: "[submission] "
+labels: [submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never place an API key, bearer token, private endpoint credential, or private document in this issue.** This form collects metadata only. The organizers will arrange a secure credential channel if the submission is accepted.
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Exact model name
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Immutable revision or provider version date
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Execution mode
+      options: [Hosted API, Open weights, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: public_docs
+    attributes:
+      label: Public model card or technical report
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Credential safety
+      options:
+        - label: I have not included credentials or secrets in this issue.
+          required: true

@@ -1,0 +1,591 @@
+{
+  "created_at": "2026-08-08T01:12:37Z",
+  "excluded_categories": [
+    "source acquisition and scraping",
+    "raw, cache, interim, and curation data",
+    "population and docket-resolution pipelines",
+    "API receipts and private human-review ledgers",
+    "downloaded party filings and private holdout material",
+    "PACER locator compatibility artifacts"
+  ],
+  "file_count_excluding_manifest": 114,
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "fbb1e84bfba32e9ca773751ce894e8a942d40f74a57014908799bd13a9053a9e",
+      "size_bytes": 812
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/model-submission.yml",
+      "sha256": "3a36d3f72a18059f963e30f022d84015a62e35db7447acda8c4c745c4b8e9774",
+      "size_bytes": 1263
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "a4cfcc62696db9af7cc044ded29e5b4810c621ba57bb92b005fcb0620cf31d04",
+      "size_bytes": 345
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "df498e48eefbc50e7478a21166691471c9c9c4587aae00832b5905015f86c875",
+      "size_bytes": 568
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "db47565af2174c437317f1daba1329474ac79cb94b793163950e1761ae7ad41d",
+      "size_bytes": 1113
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a759d11cf5df8f4e94d3fb755d30ae7eadcf2860619a62be4a32191cfc69e65a",
+      "size_bytes": 189
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "32424a4ce051c25f8e1733bda69f157b84f570099f94dc6831e921fd4e92fcfc",
+      "size_bytes": 1131
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "9e7866d484bd2e1e37c7448b98a8c0ce81431a6c6205f45687b70ed101c55ab3",
+      "size_bytes": 395
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "9b5813b091446bb29cebf46fc166d14180af292b036fc3e1b0067fbdb7e85235",
+      "size_bytes": 695
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "f6cb5eb55e1ea3a2ca01b0fdce7594014beca8713f636219263601ebd9b5f9a6",
+      "size_bytes": 1181
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size_bytes": 11357
+    },
+    {
+      "path": "Makefile",
+      "sha256": "ee439b57eeadf23f7ca5df6dd70f11560dfff0afbca3ce25b6c116a441036916",
+      "size_bytes": 1502
+    },
+    {
+      "path": "README.md",
+      "sha256": "d61b8c4e3da2df4e1ec86d0004667265278bbb98ed3584764b227510705e3a89",
+      "size_bytes": 11501
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "21065af39475c2ab6012f7eb2d1e1c5a7544ecfebf385af30f3ae82da097d02c",
+      "size_bytes": 1643
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES.json",
+      "sha256": "9b0a5449a3acd876a6c60c0b3c2593dd2ce3dcc2a6f668876c6001215bbfcd37",
+      "size_bytes": 15942
+    },
+    {
+      "path": "configs/campaign.example.yaml",
+      "sha256": "2550d38c4cee3ad7ffd996b6445c38f36ab69635979a6755bbcb5af9305271fb",
+      "size_bytes": 1037
+    },
+    {
+      "path": "configs/organic-campaign.deepseek.example.yaml",
+      "sha256": "ae5b325930c734b0c2d7d376ab88d0344a1227d638881d0b2a8eb37f28dd3449",
+      "size_bytes": 616
+    },
+    {
+      "path": "configs/organic-campaign.example.yaml",
+      "sha256": "643867bfd61e0ab39afb2d83a137415d9c9f06a74362c03a19a72eb260f4dffa",
+      "size_bytes": 1099
+    },
+    {
+      "path": "configs/organic-smoke.yaml",
+      "sha256": "f4b9a019d0201a1b453d00618d44f015c8a229150d0101d9975022dd817ffe48",
+      "size_bytes": 310
+    },
+    {
+      "path": "configs/private-holdout.example.yaml",
+      "sha256": "b04cb4a1e3ca38257e182d4b1ce0be6a3fd6d09cb5ee2e9ea4a7898a44446668",
+      "size_bytes": 447
+    },
+    {
+      "path": "configs/smoke.yaml",
+      "sha256": "6065d6bf8a7e6862ac793acbc7d2809c1b15004c852c8d53ad464ea570445242",
+      "size_bytes": 314
+    },
+    {
+      "path": "data/gold/v1/DATASET_CARD.md",
+      "sha256": "36d95a2e69f45bcc02f3dd0751b0a3eaee48591250efa8d0ae7d78d573b4f226",
+      "size_bytes": 205
+    },
+    {
+      "path": "data/gold/v1/citation_items.jsonl",
+      "sha256": "5241f8f9e79c3b4cdfa033a5423c47c6bd2758098113353ca25e54562f748607",
+      "size_bytes": 441751
+    },
+    {
+      "path": "data/gold/v1/document_scenarios.jsonl",
+      "sha256": "d18c944f1e7f54d2343af80297282646686ceae9c282a879e6d991f273529bce",
+      "size_bytes": 74708
+    },
+    {
+      "path": "data/gold/v1/manifest.json",
+      "sha256": "3ca29259a4cd3eac86f16eeb5d49d63529045f05d716e0b67aad7ee92126ee46",
+      "size_bytes": 2251
+    },
+    {
+      "path": "data/gold/v1/memorization_probes.jsonl",
+      "sha256": "8026c49660dc8133c650bf6873f2f0e1fbad35156b185f0ec1eebd7047a94992",
+      "size_bytes": 9817
+    },
+    {
+      "path": "docs/CLAIMS.md",
+      "sha256": "794c044f4f4701c5d76bdc0869cfcae7cdf5bd6e44888b1d96cdd4729f9ae649",
+      "size_bytes": 1381
+    },
+    {
+      "path": "docs/CONTAMINATION.md",
+      "sha256": "546daf52202d94733bfc698bb1ac2752b92e71841289764ed7073a44f7c2bee1",
+      "size_bytes": 1697
+    },
+    {
+      "path": "docs/DATASET_CARD.md",
+      "sha256": "0285264e7b94fcb4763f4412993deff1fa2184af2142d7884ece131b879bc3ce",
+      "size_bytes": 4799
+    },
+    {
+      "path": "docs/LICENSING.md",
+      "sha256": "a9b45d17ee10926ed14c7988b0931216d808f9f524aa0c8d2aa3a8d0b3bc5b2c",
+      "size_bytes": 2630
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "sha256": "30ee52cbda685aa141cd5d8f8d87cef4439e6ce80d59663e07c3962096b67258",
+      "size_bytes": 5315
+    },
+    {
+      "path": "docs/ORGANIC_DOCUMENT_BENCHMARK.md",
+      "sha256": "63c78ae8a3563eaf0ea3c5fa2cef5e8dfb76f06897e484bcbbad62c253a4fd28",
+      "size_bytes": 14316
+    },
+    {
+      "path": "docs/PRIOR_ART.md",
+      "sha256": "fb9972af162eeedb8ea32ee1fd89e9368fe43f4ba91adaf699133b0487ce9a64",
+      "size_bytes": 6238
+    },
+    {
+      "path": "docs/PUBLICATION.md",
+      "sha256": "c64596936f5927a773935c349922bd39fa68c619f6cf083f0077eecd96189ab7",
+      "size_bytes": 5592
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "7e2e1ab04d532f85b11504bc35bd98fc497da19f5675aa752ef4e3ee9e1028eb",
+      "size_bytes": 6605
+    },
+    {
+      "path": "docs/SCHEMA.md",
+      "sha256": "9d02e4d61e775c3eb62db60dbb1969314fa686e6c8b15d2b9826fd41d30251fd",
+      "size_bytes": 4185
+    },
+    {
+      "path": "docs/SCORING.md",
+      "sha256": "44dec3bd5bcad6e22d56d89a42ea9300c47f85d76d75c0f76a96e04f4121769e",
+      "size_bytes": 3711
+    },
+    {
+      "path": "docs/SUBMISSIONS.md",
+      "sha256": "1bddd37cb1fd15ad222e6e5befbcc303ce50f94bef3c0de23cf513d8842ee01b",
+      "size_bytes": 6432
+    },
+    {
+      "path": "leaderboard/LEADERBOARD.md",
+      "sha256": "8504bf302d599d4f67f6f488ba7de89ffec957e3d55a61ae0a78fe2557d3c62f",
+      "size_bytes": 978
+    },
+    {
+      "path": "leaderboard/index.html",
+      "sha256": "1f87660f87c3fbf7c9f7e2b120d40e76b8392d7f68b3b989067cc74c919195c6",
+      "size_bytes": 2764
+    },
+    {
+      "path": "leaderboard/leaderboard.json",
+      "sha256": "4851b7e187ca97cbb398da7787789b2bba04f56206459d6f6470e3905a522f9f",
+      "size_bytes": 1545
+    },
+    {
+      "path": "leaderboard/submissions/mock-deterministic-rule-based-v1-ea0583a8540afa8b.json",
+      "sha256": "5bdabbdb79bea79f3b7fb35b8deef6ad041a29aaa03358a6b1a1fac4c979bd78",
+      "size_bytes": 7997
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "8aa9ad9d5b36424e77b93cff159d6e9a1f8b760b4ea97cdc9d286f2ce899e182",
+      "size_bytes": 1511
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "770a48e16564f2cbf1e9f745e85a22942b524e1083a1b593bf4db56d2cb9b38c",
+      "size_bytes": 1039
+    },
+    {
+      "path": "results/smoke/index.json",
+      "sha256": "8061c0d1a942ff7f66f79b7db4fe1362ac5285b54eebb462828da4e3e7b099bb",
+      "size_bytes": 4566
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--closed-book--2d72760bc8e21636/identity.json",
+      "sha256": "060a2ac6aeb25096aa8f649937668cfcaa917fcf3d8a614c33036c342659ece4",
+      "size_bytes": 2305
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--closed-book--2d72760bc8e21636/metrics.json",
+      "sha256": "1eb74d411cec9658371a8ceccaafddbdb38ea507ea75c75ab433534568af0f7e",
+      "size_bytes": 3536
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--closed-book--2d72760bc8e21636/predictions.jsonl",
+      "sha256": "889d0ee547128a067cfd6e1c2e06228f92764af2d4793d0ba465dd7c35b79a81",
+      "size_bytes": 5025
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--closed-book--2d72760bc8e21636/request_attempts.json",
+      "sha256": "5e23abf92198c907e9db133960eb74510c673350005ce92fbb2d3d9996638025",
+      "size_bytes": 1670
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--closed-book--2d72760bc8e21636/run.json",
+      "sha256": "ed7dbaf040da5e101e85e7bcd0bc39cd6c9ff946dcb7910b05b47520bb70a4e8",
+      "size_bytes": 5525
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--closed-book--da8a6506d71abf90/identity.json",
+      "sha256": "57e72f063ebd29246fe6e77bd48a86ef2355ab8c57d7fd804107117afa9dd3cf",
+      "size_bytes": 1740
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--closed-book--da8a6506d71abf90/metrics.json",
+      "sha256": "ba8ba26b2a5b66e5b213944c639b1a4040b29b65a28cb34d00234927162273a4",
+      "size_bytes": 4321
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--closed-book--da8a6506d71abf90/predictions.jsonl",
+      "sha256": "7ff1301100d492849e4392922cced25d8e18c6f8e080f47fb4360b1007e46a89",
+      "size_bytes": 2765
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--closed-book--da8a6506d71abf90/request_attempts.json",
+      "sha256": "2c08404c261bbc51caab09e9b810702870eb1b0908bdf758e1e52ecf2bd4ee4e",
+      "size_bytes": 452
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--closed-book--da8a6506d71abf90/run.json",
+      "sha256": "77b7c4d93c855c410614eb0401ec1e6275d91882d0368a3f71c7967a473afdc0",
+      "size_bytes": 5206
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/courtlistener_request_attempts.json",
+      "sha256": "5282ea17f0e33a971c7c8e3343eb07acc573e7f5dc0dbfcd799a90702264daab",
+      "size_bytes": 1070
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/identity.json",
+      "sha256": "121b9e0e5e886228ced2344e70da67c9ee8cc35bf0460876a41444c64080c9ea",
+      "size_bytes": 1775
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/metrics.json",
+      "sha256": "3298c09a71dd1e079445ea14c5a0fe1e616c177f10adcb676b31f9100fffe575",
+      "size_bytes": 4419
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/predictions.jsonl",
+      "sha256": "ef2ede3087d2f178649fc215bb798605156843caf71902393b25a3c37f4d33a0",
+      "size_bytes": 37622
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/request_attempts.json",
+      "sha256": "53e08d3b6fe52d7586eb418c8af7bc266a719d27d11f911570cad89ec07b1b1c",
+      "size_bytes": 452
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/run.json",
+      "sha256": "c66ec53bcc19307f77d617ea19343f33481d28ed2359bdd7a2c24fdae3b8fc9d",
+      "size_bytes": 5743
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/tool_evidence.json",
+      "sha256": "ce16d483ff815993816699ef1e753d32b802448e51e23decc6ef4585ccab3ae7",
+      "size_bytes": 48582
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/courtlistener_request_attempts.json",
+      "sha256": "ce796fa00fd9a469308c3921b99e90eb8754a88051a27fd3f91516919de5fb6b",
+      "size_bytes": 1070
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/identity.json",
+      "sha256": "4c4e8d81f2a0b0d86c4a8224f4c66a1a3f792dc07a1edb0999c2eb3cb4eb7467",
+      "size_bytes": 2340
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/metrics.json",
+      "sha256": "4fda30979f2bce12892cbf3fe6778bcf2b708a549c45eed3d93c308d4009cc7c",
+      "size_bytes": 3605
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/predictions.jsonl",
+      "sha256": "c4e5c6697f71b5a9801eb38170be835d30fc99937585cf202fb70dccedde004c",
+      "size_bytes": 50312
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/request_attempts.json",
+      "sha256": "400912cea3808dad8761e2fbc1564ebc126d09b2b5c4c8b9572191d05363fb5b",
+      "size_bytes": 1670
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/run.json",
+      "sha256": "925356b06059dc41496a3fcc0427e55b4d5fc8ef1b28d7f68baa5a5441c55096",
+      "size_bytes": 6080
+    },
+    {
+      "path": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/tool_evidence.json",
+      "sha256": "e33e9f6cafc80c407b445ab9a7cb0823625bdde03aaff4cde688312164ea9b79",
+      "size_bytes": 52237
+    },
+    {
+      "path": "schemas/citation-item-v1.schema.json",
+      "sha256": "d4c60122e61d13d92a4398334dc8327024d7aa74f21128fd9e6da397682c1c44",
+      "size_bytes": 7518
+    },
+    {
+      "path": "schemas/citation-prediction-v1.schema.json",
+      "sha256": "0c02016b6d0cbef3928316bdb071c0b7b38affec93741af4ebff383fb883bf83",
+      "size_bytes": 1154
+    },
+    {
+      "path": "schemas/document-prediction-v1.schema.json",
+      "sha256": "2e6572988c576523e7b68fb27c79659d40cfea618d72eb5f8f4b8bf074f2ba76",
+      "size_bytes": 1576
+    },
+    {
+      "path": "schemas/document-scenario-v1.schema.json",
+      "sha256": "dd618639df878fdf47ad0d8aafc401452625e5027415d542ba2e6cc7efe0034c",
+      "size_bytes": 2841
+    },
+    {
+      "path": "schemas/organic-document-prediction-v1.schema.json",
+      "sha256": "ba6d7507179ff351256746581a1397beb379176aad3e3572c7565ca745f418a3",
+      "size_bytes": 2239
+    },
+    {
+      "path": "schemas/organic-document-v1.schema.json",
+      "sha256": "4cea300d91635199c597d68849a1dcac2c263ebadfe43b4e454d9ed6988caff6",
+      "size_bytes": 9212
+    },
+    {
+      "path": "schemas/run-record-v1.schema.json",
+      "sha256": "373f2200f4c2d1952b205e8b8079fe477ffb6b6f843913c4d4a06265722428bb",
+      "size_bytes": 1686
+    },
+    {
+      "path": "schemas/submission-v1.schema.json",
+      "sha256": "3b194f9656e490341a3c8398e6ba45d4cccff972623e91925aa1977b9225dd8a",
+      "size_bytes": 13288
+    },
+    {
+      "path": "scripts/audit_dependency_licenses.py",
+      "sha256": "ce6de49ab754e62d0bc9b19b66a0ad8b0aab25bec351be843f822beef26df666",
+      "size_bytes": 4986
+    },
+    {
+      "path": "scripts/export_schemas.py",
+      "sha256": "c3cdc38d53f87e4cf9f391b135b178b6bdac2589d7ded678136ac75ae2aff4de",
+      "size_bytes": 1398
+    },
+    {
+      "path": "scripts/verify_public_manifest.py",
+      "sha256": "71cfcc526c10889bab6f28d02925f5e2d6bb02caff7de6de9f6c215bed7db583",
+      "size_bytes": 9794
+    },
+    {
+      "path": "src/sanctionbench/__init__.py",
+      "sha256": "926c99ea9968f76a8eaeb889ade827b2404506d06427c64d0183bf604d6537e6",
+      "size_bytes": 52
+    },
+    {
+      "path": "src/sanctionbench/courtlistener.py",
+      "sha256": "8f0874cb8c52c67bd6130578526116868f63f31ef5482f3b18fd3dec15c8bfe7",
+      "size_bytes": 29507
+    },
+    {
+      "path": "src/sanctionbench/document_audit.py",
+      "sha256": "3a6d00767a4b26890f3089d9b4b2fc21f0cbdc31751807d1498b258e136c9dad",
+      "size_bytes": 11762
+    },
+    {
+      "path": "src/sanctionbench/grading.py",
+      "sha256": "db16ce2ec0142608053ed9b8e9c29755e34a47011e45735b87f8bceb896bc491",
+      "size_bytes": 12212
+    },
+    {
+      "path": "src/sanctionbench/models.py",
+      "sha256": "d019f473a5449bfb045e1ff231838561156c7fb806e4949ee096f38f907b39c8",
+      "size_bytes": 19223
+    },
+    {
+      "path": "src/sanctionbench/organic_document_audit.py",
+      "sha256": "71f90d4b32ee7e9da2baeb90a54a20ce2e5c84daa4be542dc7c7fb69186547bb",
+      "size_bytes": 30131
+    },
+    {
+      "path": "src/sanctionbench/providers/__init__.py",
+      "sha256": "288b246c2fa382b661c806825a01ab98ed700f05178375c09e0669b33e671ac7",
+      "size_bytes": 31
+    },
+    {
+      "path": "src/sanctionbench/providers/anthropic_provider.py",
+      "sha256": "75b5e1686a27dab71bc5ccd14872e67d6eb51ab51bb07937a715038ec86ef1d8",
+      "size_bytes": 5078
+    },
+    {
+      "path": "src/sanctionbench/providers/base.py",
+      "sha256": "70d29d9123b0952c487445be2ed320ec6bf684934046d41a7a14d2493e745bde",
+      "size_bytes": 13699
+    },
+    {
+      "path": "src/sanctionbench/providers/deepseek_provider.py",
+      "sha256": "d4835adae01596337f19be9c21f9f7737d99009b976d11eb2410f702ade735b0",
+      "size_bytes": 5364
+    },
+    {
+      "path": "src/sanctionbench/providers/factory.py",
+      "sha256": "916647902e8eea890dd12363b76474b3e5571e8b30f7bc3e02f4dcb5de4b3563",
+      "size_bytes": 1392
+    },
+    {
+      "path": "src/sanctionbench/providers/google_provider.py",
+      "sha256": "82d8075f53ce36820a95d9b14cfb5276d8286c043a33ad55a9cc5205bf93d170",
+      "size_bytes": 6003
+    },
+    {
+      "path": "src/sanctionbench/providers/mock.py",
+      "sha256": "3c568c2c9507eab37d179e7298231586dfd6020581d845f020282bf575e11f59",
+      "size_bytes": 6679
+    },
+    {
+      "path": "src/sanctionbench/providers/openai_provider.py",
+      "sha256": "a6fa70fc138d97b6912e88295b94616c1928fd97c65bbebb16eed7b9e3c37bed",
+      "size_bytes": 5978
+    },
+    {
+      "path": "src/sanctionbench/public_cli.py",
+      "sha256": "e03673fda0f32a34515a09a91ce2a54cae42ff87f4c1cc2854a12910446a20dd",
+      "size_bytes": 7687
+    },
+    {
+      "path": "src/sanctionbench/release_validation.py",
+      "sha256": "dad536336a2e9fdcacc94b52ba8dbd9f31c374fe7a9b4c9c8b1990cb8e06376e",
+      "size_bytes": 4829
+    },
+    {
+      "path": "src/sanctionbench/runner.py",
+      "sha256": "04b67815a6beded779bdb9af5b440fd3945b7b6667611a463c1ec5ddcfcd3d92",
+      "size_bytes": 103390
+    },
+    {
+      "path": "src/sanctionbench/submissions.py",
+      "sha256": "9a21e72de55b9272eb6d55d357092772bd4fee8b333aca388e6ae3b811de9980",
+      "size_bytes": 54166
+    },
+    {
+      "path": "src/sanctionbench/util.py",
+      "sha256": "a4437f73f58d5fd9c543e64271274e1a6bef3a58db15c82b640597570c538d74",
+      "size_bytes": 9099
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "9f090d34c6172589d23028f766e440a9b2e78cbd833acc712b73f9e8f624f617",
+      "size_bytes": 2479
+    },
+    {
+      "path": "tests/test_anthropic_provider.py",
+      "sha256": "98dc92d10d07f0cac3bdee62e012958a5d9818deb7bc7c125b89a344d30ea37f",
+      "size_bytes": 3929
+    },
+    {
+      "path": "tests/test_courtlistener.py",
+      "sha256": "cc32ceb0ee4a65d4a72fc8f52522ad079575e1933340ebad1b851a400cfad2c2",
+      "size_bytes": 15520
+    },
+    {
+      "path": "tests/test_deepseek_provider.py",
+      "sha256": "e62872d221bf72321d8ef40ae53d9bdb1d730c99af7285c6f9561e0ac7a69b1c",
+      "size_bytes": 4811
+    },
+    {
+      "path": "tests/test_document_audit.py",
+      "sha256": "be1c1e924f9f94930aa3a993ca00341e791dc4dc517440d832db9383f93b23f7",
+      "size_bytes": 4521
+    },
+    {
+      "path": "tests/test_google_provider.py",
+      "sha256": "78058de114ba31d73035ee396a5c1da39b402a9b54810e0ad72885e4d6dba1a4",
+      "size_bytes": 2701
+    },
+    {
+      "path": "tests/test_mock_provider.py",
+      "sha256": "1ab59fc5f64555bb769f4cc3311c733454844125055c778a154aabd6ff8afd79",
+      "size_bytes": 981
+    },
+    {
+      "path": "tests/test_openai_provider.py",
+      "sha256": "e5d6926a391ce8ce67833138f9b6ec1388b0479dafbb82179461f941b5b0b095",
+      "size_bytes": 1801
+    },
+    {
+      "path": "tests/test_organic_document_audit.py",
+      "sha256": "373ee3ba2aa81867ec0b0ee86c9e2cc2bb8e41f54a8e38e0d0fd16346da82310",
+      "size_bytes": 24945
+    },
+    {
+      "path": "tests/test_provider_wire_contract.py",
+      "sha256": "b9fb83af1ac529d8e9b081bce94f8547f60f2e310ec9369b487986ab76cd1a05",
+      "size_bytes": 6413
+    },
+    {
+      "path": "tests/test_release_validation.py",
+      "sha256": "c0d7f1b63234ad4c9c321efc4716f35ee4c5ecf7815d5b6abcbe2ce1c1913ee7",
+      "size_bytes": 1376
+    },
+    {
+      "path": "tests/test_runner_reproducibility.py",
+      "sha256": "a182766837531c27cbccb3eeb7df65551ebff4cd274da59f25f8348a2cda1b4e",
+      "size_bytes": 24803
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "sha256": "894efb7a769545e1c44ae9e904947bbbc312a55b7e1bb1f66822103f1f7a1cac",
+      "size_bytes": 4087
+    },
+    {
+      "path": "tests/test_submissions.py",
+      "sha256": "50f288375728935957bcc1b3af4e1efa22599e9d7fed31674e25e91df4b4f87a",
+      "size_bytes": 13339
+    },
+    {
+      "path": "tests/test_util.py",
+      "sha256": "d305b60904663faaecaf5d05b20f68f3d421d2ab6e4ef28e088ce771e316239f",
+      "size_bytes": 3110
+    }
+  ],
+  "fresh_history_required": true,
+  "official_private_holdout_included": false,
+  "public_release_status": "development_public_gold",
+  "schema_version": "sanctionbench.public_export.v1",
+  "source_internal_commit": "1022c7db934ccce16225578c85e2e9b6d101a73f",
+  "source_internal_dirty": false,
+  "warning": "This is public development gold. Mock and self-reported results are not official; official evaluation requires an organizer-run private holdout."
+}

@@ -1,0 +1,102 @@
+{
+  "approved_max_courtlistener_requests": 528,
+  "approved_max_provider_input_bytes": null,
+  "approved_max_provider_requests": null,
+  "benchmark_release_status": "development_public_gold",
+  "config": "configs/smoke.yaml",
+  "config_sha256": "c93479dbbc5c86589bca173029b9698e0d6d7c605f7b634615f1a1b325522800",
+  "courtlistener_request_count": 0,
+  "created_at": "2026-08-07T23:51:46Z",
+  "dataset": "data/gold/v1/citation_items.jsonl",
+  "dataset_redistribution_statuses": [
+    "cleared_public"
+  ],
+  "dataset_release_tiers": [
+    "public_development_gold"
+  ],
+  "dataset_sha256": "5241f8f9e79c3b4cdfa033a5423c47c6bd2758098113353ca25e54562f748607",
+  "document_dataset": "data/gold/v1/document_scenarios.jsonl",
+  "document_dataset_sha256": "d18c944f1e7f54d2343af80297282646686ceae9c282a879e6d991f273529bce",
+  "git_state_at_manifest_start": {
+    "commit": "73f94e517f522b8883292a5a6ad23e45a10144b0",
+    "dirty": true,
+    "status_entry_count": 238,
+    "status_sha256": "baece927d2f36c404c483e6346c824ff2298c68d896fd94525ad5efed9965ea7"
+  },
+  "live_model_smoke_completed": false,
+  "maximum_courtlistener_lookups_per_run": 512,
+  "maximum_cumulative_checkpoint_write_bytes": 268435456,
+  "planned_live_model_call_count": 0,
+  "planned_provider_input_bytes_per_provider": 36141766,
+  "provider_request_count": 50,
+  "retry_inclusive_courtlistener_request_ceiling": 528,
+  "retry_inclusive_live_provider_input_byte_ceiling": 0,
+  "retry_inclusive_live_provider_request_ceiling": 0,
+  "runner_courtlistener_response_byte_limit": 262144,
+  "runs": [
+    {
+      "condition": "closed_book",
+      "courtlistener_request_count": 0,
+      "false_positive_rate": 0.333333,
+      "finalized_run_identity_sha256": "a55266fc805e54f14704e4ea792f9721b945e33055f1238eb24cdbe2229f0c29",
+      "item_count": 24,
+      "mock": true,
+      "provider_request_count": 24,
+      "run_file": "results/smoke/mock--deterministic-rule-based-v1--closed-book--2d72760bc8e21636/run.json",
+      "run_id": "mock--deterministic-rule-based-v1--closed-book--2d72760bc8e21636",
+      "run_identity_sha256": "2d72760bc8e2163623b456020d14e9f75b28905c7da241f057bf340da41d4861",
+      "sanction_score": 41.666667,
+      "task_type": "citation_verification"
+    },
+    {
+      "condition": "tool_assisted",
+      "courtlistener_request_count": 0,
+      "false_positive_rate": 0.083333,
+      "finalized_run_identity_sha256": "132ba72e20bf6dfeb781bc3ba15202ce909ea74f9223564685e61b4f360047a3",
+      "item_count": 24,
+      "mock": true,
+      "provider_request_count": 24,
+      "run_file": "results/smoke/mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c/run.json",
+      "run_id": "mock--deterministic-rule-based-v1--tool-assisted--08f017edaed9924c",
+      "run_identity_sha256": "08f017edaed9924cb94390ee831080be58b376899ac8470ef499770d41ec45c4",
+      "sanction_score": 100.0,
+      "task_type": "citation_verification"
+    },
+    {
+      "condition": "closed_book",
+      "courtlistener_request_count": 0,
+      "false_positive_rate": 0.333333,
+      "finalized_run_identity_sha256": "21d10c56bcb7cc33af916bf6af84ce16df874ea1daeb91dd2adc7d341af62fc4",
+      "item_count": 20,
+      "mock": true,
+      "provider_request_count": 1,
+      "run_file": "results/smoke/mock--deterministic-rule-based-v1--document-audit--closed-book--da8a6506d71abf90/run.json",
+      "run_id": "mock--deterministic-rule-based-v1--document-audit--closed-book--da8a6506d71abf90",
+      "run_identity_sha256": "da8a6506d71abf906b1b38c36d6046e78c9eee2a5c7d17cf79c76ffb6f864c31",
+      "sanction_score": 75.0,
+      "task_type": "document_audit"
+    },
+    {
+      "condition": "tool_assisted",
+      "courtlistener_request_count": 0,
+      "false_positive_rate": 0.083333,
+      "finalized_run_identity_sha256": "32c31447a5e01c1c112c52caf5c4f8070499bfbf99e432daff484b372b3122af",
+      "item_count": 20,
+      "mock": true,
+      "provider_request_count": 1,
+      "run_file": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/run.json",
+      "run_id": "mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496",
+      "run_identity_sha256": "4be40196ca71e496fd57203d85a830fe30f77798c2166f029f832f80949fefc8",
+      "sanction_score": 100.0,
+      "task_type": "document_audit"
+    }
+  ],
+  "schema_version": "sanctionbench.result_index.v1",
+  "selected_citation_item_count": 24,
+  "selected_document_count": 1,
+  "temporal_filter": {
+    "applied": false,
+    "eligible_item_count": 152,
+    "input_item_count": 152
+  }
+}

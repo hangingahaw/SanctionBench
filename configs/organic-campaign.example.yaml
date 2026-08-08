@@ -1,0 +1,22 @@
+# The adjudicated dataset is produced by the private construction repository's gold-build pipeline
+# and is ignored by Git unless every included filing has been separately cleared for redistribution.
+dataset: ${SANCTIONBENCH_ORGANIC_DOCUMENT_DATASET}
+output_dir: results/runs/organic
+providers:
+  - provider: openai
+    model_env: SANCTIONBENCH_OPENAI_MODEL
+  - provider: anthropic
+    model_env: SANCTIONBENCH_ANTHROPIC_MODEL
+  - provider: google
+    model_env: SANCTIONBENCH_GOOGLE_MODEL
+conditions: [closed_book]
+repetitions: 1
+seed: 20260711
+resume: true
+
+# One provider, one condition, and one repetition produces exactly one isolated successful response
+# per document. Planned successful responses = documents * providers * conditions * repetitions;
+# retry attempts are durably counted in addition. Live runs require the independent CLI approval
+# --max-provider-requests = 3 * documents * live providers * conditions * repetitions.
+# Live runs also require --max-provider-input-bytes at or above the conservative retry-inclusive plan
+# reported by the runner before it constructs a client.

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SanctionBench Leaderboard</title><style>
+body{font-family:system-ui,sans-serif;max-width:1200px;margin:40px auto;padding:0 20px;color:#17202a}
+.table-scroll{max-width:100%;overflow-x:auto}table{border-collapse:collapse;min-width:1100px;width:100%}
+th,td{border:1px solid #d5d8dc;padding:8px;text-align:right}
+th:nth-child(-n+3),td:nth-child(-n+3){text-align:left}th{background:#f4f6f7}code{font-size:.9em}
+.warning{background:#fff4d6;border-left:4px solid #d4a017;padding:12px}
+.metric-notes{background:#f4f6f7;padding:12px;margin:16px 0}.meta{color:#566573}
+.scroll-hint{display:none;font-size:.9rem;margin:.5rem 0;color:#566573}
+@media(max-width:800px){.scroll-hint{display:block}}
+</style></head><body><h1>SanctionBench Leaderboard</h1>
+<p class="meta">Benchmark version <strong>1.0.0</strong>. Built from 1 validated aggregate submission.</p><nav aria-label="Project links"><a href="https://github.com/hangingahaw/SanctionBench">Repository</a> &middot; <a href="https://github.com/hangingahaw/SanctionBench/blob/main/docs/SCORING.md">Scoring contract</a></nav><p class="warning">Development mock and self-reported results are not official. Official results require an organizer-run private-holdout evaluation.</p><section class="metric-notes" aria-labelledby="metric-definitions"><h2 id="metric-definitions">Metric definitions</h2><p><strong>SanctionScore</strong> is offending-authority recall on a 0 to 100 scale. <strong>Clean audits</strong> are documents with no missed offending authorities. <strong>FPR</strong> and <strong>control alarms</strong> measure incorrect flags against real authorities or clean control documents. <strong>Extra reviews per document</strong> counts flags that require additional verification.</p></section><p class="scroll-hint">Scroll horizontally to view all metrics.</p><div class="table-scroll" role="region" aria-label="Leaderboard metrics" tabindex="0"><table><thead><tr>
+<th>Tier</th><th>Model</th><th>Revision</th><th>Organic closed</th><th>Organic clean audits</th>
+<th>Control alarms</th><th>Organic extra reviews/doc</th><th>Citation closed</th><th>Closed FPR</th>
+<th>Citation tool</th><th>Tool FPR</th><th>Document closed</th><th>Document tool</th>
+<th>Tool clean audits</th><th>Tool extra reviews/doc</th><th>Queries</th></tr></thead><tbody><tr><td>development_mock</td><td>mock/deterministic-rule-based-v1</td><td><code>deterministic-rule-based-v1</code></td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>41.67</td><td>33.33%</td><td>100.00</td><td>8.33%</td><td>75.00</td><td>100.00</td><td>100.00%</td><td>1.00</td><td>50</td></tr></tbody></table></div></body></html>

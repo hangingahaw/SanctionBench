@@ -1,0 +1,572 @@
+{
+  "all_dependencies_reviewed": true,
+  "forbidden_copyleft_dependency_present": false,
+  "package_count": 60,
+  "packages": [
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "annotated-types",
+      "project_url": "Homepage, https://github.com/annotated-types/annotated-types",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.8.0"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "anthropic",
+      "project_url": "Homepage, https://github.com/anthropics/anthropic-sdk-python",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.57.1"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "anyio",
+      "project_url": "Documentation, https://anyio.readthedocs.io/en/latest/",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "4.14.2"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "build",
+      "project_url": "changelog, https://build.pypa.io/en/stable/changelog.html",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "1.5.0"
+    },
+    {
+      "license_metadata": "MPL-2.0 | OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+      "name": "certifi",
+      "project_url": "https://github.com/certifi/python-certifi",
+      "recognized_license_ids": [
+        "MPL-2.0"
+      ],
+      "version": "2026.7.22"
+    },
+    {
+      "license_metadata": "MIT-0",
+      "name": "cffi",
+      "project_url": "Documentation, https://cffi.readthedocs.io/",
+      "recognized_license_ids": [
+        "MIT",
+        "MIT-0"
+      ],
+      "version": "2.1.1"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "charset-normalizer",
+      "project_url": "Changelog, https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "3.4.9"
+    },
+    {
+      "license_metadata": "BSD-3-Clause",
+      "name": "click",
+      "project_url": "Changes, https://click.palletsprojects.com/page/changes/",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "8.4.2"
+    },
+    {
+      "license_metadata": "BSD-2-Clause",
+      "name": "courts-db",
+      "project_url": "Repository, https://github.com/freelawproject/courts-db",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-2-Clause"
+      ],
+      "version": "0.10.27"
+    },
+    {
+      "license_metadata": "Apache-2.0",
+      "name": "coverage",
+      "project_url": "https://github.com/coveragepy/coveragepy",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "7.15.4"
+    },
+    {
+      "license_metadata": "Apache-2.0 OR BSD-3-Clause",
+      "name": "cryptography",
+      "project_url": "changelog, https://cryptography.io/en/latest/changelog/",
+      "recognized_license_ids": [
+        "Apache-2.0",
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "50.0.0"
+    },
+    {
+      "license_metadata": "Apache License, Version 2.0 | OSI Approved :: Apache Software License",
+      "name": "distro",
+      "project_url": "https://github.com/python-distro/distro",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "1.9.0"
+    },
+    {
+      "license_metadata": "BSD-2-Clause",
+      "name": "eyecite",
+      "project_url": "Repository, https://github.com/freelawproject/eyecite",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-2-Clause"
+      ],
+      "version": "2.7.6"
+    },
+    {
+      "license_metadata": "Apache License 2.0",
+      "name": "fast-diff-match-patch",
+      "project_url": "https://github.com/JoshData/fast_diff_match_patch",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "2.1.0"
+    },
+    {
+      "license_metadata": "Apache 2.0 | OSI Approved :: Apache Software License",
+      "name": "google-auth",
+      "project_url": "https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "2.56.3"
+    },
+    {
+      "license_metadata": "Apache-2.0 | OSI Approved :: Apache Software License",
+      "name": "google-genai",
+      "project_url": "Homepage, https://github.com/googleapis/python-genai",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "1.25.0"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "h11",
+      "project_url": "https://github.com/python-hyper/h11",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.16.0"
+    },
+    {
+      "license_metadata": "BSD-3-Clause | OSI Approved :: BSD License",
+      "name": "httpcore",
+      "project_url": "Documentation, https://www.encode.io/httpcore",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "1.0.9"
+    },
+    {
+      "license_metadata": "BSD-3-Clause | OSI Approved :: BSD License",
+      "name": "httpx",
+      "project_url": "Changelog, https://github.com/encode/httpx/blob/master/CHANGELOG.md",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "0.28.1"
+    },
+    {
+      "license_metadata": "BSD-3-Clause",
+      "name": "idna",
+      "project_url": "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "3.18"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "iniconfig",
+      "project_url": "Homepage, https://github.com/pytest-dev/iniconfig",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "2.3.0"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "jiter",
+      "project_url": "https://github.com/pydantic/jiter/",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.16.0"
+    },
+    {
+      "license_metadata": "BSD-3-Clause",
+      "name": "lxml",
+      "project_url": "https://lxml.de/",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "6.1.1"
+    },
+    {
+      "license_metadata": "OSI Approved :: MIT License",
+      "name": "markdown-it-py",
+      "project_url": "Documentation, https://markdown-it-py.readthedocs.io",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "4.2.0"
+    },
+    {
+      "license_metadata": "OSI Approved :: MIT License",
+      "name": "mdurl",
+      "project_url": "Homepage, https://github.com/executablebooks/mdurl",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.1.2"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "mypy",
+      "project_url": "Homepage, https://www.mypy-lang.org/",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "1.16.1"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "mypy_extensions",
+      "project_url": "Homepage, https://github.com/python/mypy_extensions",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "1.1.0"
+    },
+    {
+      "license_metadata": "Apache-2.0 | OSI Approved :: Apache Software License",
+      "name": "openai",
+      "project_url": "Homepage, https://github.com/openai/openai-python",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "1.95.1"
+    },
+    {
+      "license_metadata": "Apache-2.0 OR BSD-2-Clause",
+      "name": "packaging",
+      "project_url": "Documentation, https://packaging.pypa.io/",
+      "recognized_license_ids": [
+        "Apache-2.0",
+        "BSD",
+        "BSD-2-Clause"
+      ],
+      "version": "26.3"
+    },
+    {
+      "license_metadata": "OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+      "name": "pathspec",
+      "project_url": "Change Log, https://python-path-specification.readthedocs.io/en/latest/changes.html",
+      "recognized_license_ids": [
+        "MPL-2.0"
+      ],
+      "version": "1.1.1"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "pluggy",
+      "project_url": "UNAVAILABLE",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "1.6.0"
+    },
+    {
+      "license_metadata": "BSD-3-Clause and Public-Domain",
+      "name": "pyahocorasick",
+      "project_url": "http://github.com/WojciechMula/pyahocorasick",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause",
+        "Public-Domain"
+      ],
+      "version": "2.3.1"
+    },
+    {
+      "license_metadata": "BSD-2-Clause",
+      "name": "pyasn1",
+      "project_url": "Homepage, https://github.com/pyasn1/pyasn1",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-2-Clause"
+      ],
+      "version": "0.6.4"
+    },
+    {
+      "license_metadata": "BSD | OSI Approved :: BSD License",
+      "name": "pyasn1_modules",
+      "project_url": "https://github.com/pyasn1/pyasn1-modules",
+      "recognized_license_ids": [
+        "BSD"
+      ],
+      "version": "0.4.2"
+    },
+    {
+      "license_metadata": "BSD-3-Clause",
+      "name": "pycparser",
+      "project_url": "Homepage, https://github.com/eliben/pycparser",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "3.0"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "pydantic",
+      "project_url": "Homepage, https://github.com/pydantic/pydantic",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "2.11.7"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "pydantic_core",
+      "project_url": "https://github.com/pydantic/pydantic-core",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "2.33.2"
+    },
+    {
+      "license_metadata": "BSD-2-Clause",
+      "name": "Pygments",
+      "project_url": "Homepage, https://pygments.org",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-2-Clause"
+      ],
+      "version": "2.20.0"
+    },
+    {
+      "license_metadata": "OSI Approved :: MIT License",
+      "name": "pyproject_hooks",
+      "project_url": "Changelog, https://pyproject-hooks.readthedocs.io/en/latest/changelog.html",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "1.2.0"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "pytest",
+      "project_url": "Changelog, https://docs.pytest.org/en/stable/changelog.html",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "9.0.3"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "pytest-cov",
+      "project_url": "https://github.com/pytest-dev/pytest-cov",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "6.2.1"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "PyYAML",
+      "project_url": "https://pyyaml.org/",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "6.0.2"
+    },
+    {
+      "license_metadata": "Apache-2.0 AND CNRI-Python",
+      "name": "regex",
+      "project_url": "Homepage, https://github.com/mrabarnett/mrab-regex",
+      "recognized_license_ids": [
+        "Apache-2.0",
+        "CNRI-Python"
+      ],
+      "version": "2026.7.19"
+    },
+    {
+      "license_metadata": "BSD-2-Clause",
+      "name": "reporters-db",
+      "project_url": "Repository, https://github.com/freelawproject/reporters-db",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-2-Clause"
+      ],
+      "version": "3.2.66"
+    },
+    {
+      "license_metadata": "Apache-2.0 | OSI Approved :: Apache Software License",
+      "name": "requests",
+      "project_url": "Documentation, https://requests.readthedocs.io",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "2.34.2"
+    },
+    {
+      "license_metadata": "BSD-3-Clause | OSI Approved :: BSD License",
+      "name": "respx",
+      "project_url": "https://lundberg.github.io/respx/",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "0.22.0"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "rich",
+      "project_url": "https://github.com/Textualize/rich",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "14.0.0"
+    },
+    {
+      "license_metadata": "MIT | OSI Approved :: MIT License",
+      "name": "ruff",
+      "project_url": "https://docs.astral.sh/ruff",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.12.3"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "setuptools",
+      "project_url": "Source, https://github.com/pypa/setuptools",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "83.0.0"
+    },
+    {
+      "license_metadata": "ISC License | OSI Approved :: ISC License (ISCL)",
+      "name": "shellingham",
+      "project_url": "https://github.com/sarugaku/shellingham",
+      "recognized_license_ids": [
+        "ISC"
+      ],
+      "version": "1.5.4"
+    },
+    {
+      "license_metadata": "MIT OR Apache-2.0 | OSI Approved :: MIT License | OSI Approved :: Apache Software License",
+      "name": "sniffio",
+      "project_url": "Homepage, https://github.com/python-trio/sniffio",
+      "recognized_license_ids": [
+        "Apache-2.0",
+        "MIT"
+      ],
+      "version": "1.3.1"
+    },
+    {
+      "license_metadata": "Apache 2.0 | OSI Approved :: Apache Software License",
+      "name": "tenacity",
+      "project_url": "https://github.com/jd/tenacity",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "8.5.0"
+    },
+    {
+      "license_metadata": "MPL-2.0 AND MIT",
+      "name": "tqdm",
+      "project_url": "homepage, https://tqdm.github.io",
+      "recognized_license_ids": [
+        "MIT",
+        "MPL-2.0"
+      ],
+      "version": "4.70.0"
+    },
+    {
+      "license_metadata": "OSI Approved :: MIT License",
+      "name": "typer",
+      "project_url": "Homepage, https://github.com/fastapi/typer",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.16.0"
+    },
+    {
+      "license_metadata": "Apache-2.0",
+      "name": "types-PyYAML",
+      "project_url": "Homepage, https://github.com/python/typeshed",
+      "recognized_license_ids": [
+        "Apache-2.0"
+      ],
+      "version": "6.0.12.20250516"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "typing-inspection",
+      "project_url": "Homepage, https://github.com/pydantic/typing-inspection",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.4.2"
+    },
+    {
+      "license_metadata": "PSF-2.0",
+      "name": "typing_extensions",
+      "project_url": "Bug Tracker, https://github.com/python/typing_extensions/issues",
+      "recognized_license_ids": [
+        "PSF-2.0"
+      ],
+      "version": "4.16.0"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "urllib3",
+      "project_url": "Changelog, https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "2.7.0"
+    },
+    {
+      "license_metadata": "BSD-3-Clause | OSI Approved :: BSD License",
+      "name": "websockets",
+      "project_url": "Homepage, https://github.com/python-websockets/websockets",
+      "recognized_license_ids": [
+        "BSD",
+        "BSD-3-Clause"
+      ],
+      "version": "15.0.1"
+    },
+    {
+      "license_metadata": "MIT",
+      "name": "wheel",
+      "project_url": "Changelog, https://wheel.readthedocs.io/en/stable/news.html",
+      "recognized_license_ids": [
+        "MIT"
+      ],
+      "version": "0.46.2"
+    }
+  ],
+  "requirements_lock_sha256": "770a48e16564f2cbf1e9f745e85a22942b524e1083a1b593bf4db56d2cb9b38c",
+  "schema_version": "sanctionbench.third_party_licenses.v1"
+}

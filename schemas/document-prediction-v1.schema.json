@@ -1,0 +1,74 @@
+{
+  "$defs": {
+    "DocumentAssessment": {
+      "additionalProperties": false,
+      "properties": {
+        "authority_id": {
+          "title": "Authority Id",
+          "type": "string"
+        },
+        "fake_probability": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Fake Probability",
+          "type": "number"
+        },
+        "predicted_label": {
+          "$ref": "#/$defs/PredictedLabel"
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "title": "Rationale",
+          "type": "string"
+        }
+      },
+      "required": [
+        "authority_id",
+        "predicted_label",
+        "fake_probability",
+        "rationale"
+      ],
+      "title": "DocumentAssessment",
+      "type": "object"
+    },
+    "PredictedLabel": {
+      "enum": [
+        "real",
+        "nonexistent_case",
+        "fabricated_quote",
+        "misattributed_holding",
+        "uncertain_needs_review"
+      ],
+      "title": "PredictedLabel",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "assessments": {
+      "items": {
+        "$ref": "#/$defs/DocumentAssessment"
+      },
+      "title": "Assessments",
+      "type": "array"
+    },
+    "item_id": {
+      "title": "Item Id",
+      "type": "string"
+    },
+    "tool_calls": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Tool Calls",
+      "type": "array"
+    }
+  },
+  "required": [
+    "item_id",
+    "assessments"
+  ],
+  "title": "DocumentPrediction",
+  "type": "object"
+}

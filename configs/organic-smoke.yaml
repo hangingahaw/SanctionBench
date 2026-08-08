@@ -1,0 +1,11 @@
+dataset: ${SANCTIONBENCH_ORGANIC_DOCUMENT_DATASET}
+output_dir: results/runs/organic-smoke
+providers:
+  - provider: mock
+    model: deterministic-empty-organic-v1
+conditions: [closed_book]
+repetitions: 2
+seed: 20260711
+resume: true
+
+# Two repetitions exercise repeat-aware packaging without live-provider cost.

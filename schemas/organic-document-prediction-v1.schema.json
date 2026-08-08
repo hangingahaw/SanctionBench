@@ -1,0 +1,102 @@
+{
+  "$defs": {
+    "OrganicDocumentFinding": {
+      "additionalProperties": false,
+      "properties": {
+        "case_name": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Case Name"
+        },
+        "citation_text": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Citation Text",
+          "type": "string"
+        },
+        "fake_probability": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Fake Probability",
+          "type": "number"
+        },
+        "page_number": {
+          "minimum": 1,
+          "title": "Page Number",
+          "type": "integer"
+        },
+        "predicted_label": {
+          "$ref": "#/$defs/PredictedLabel"
+        },
+        "quoted_text": {
+          "maxLength": 1500,
+          "minLength": 1,
+          "title": "Quoted Text",
+          "type": "string"
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "title": "Rationale",
+          "type": "string"
+        }
+      },
+      "required": [
+        "citation_text",
+        "page_number",
+        "quoted_text",
+        "predicted_label",
+        "fake_probability",
+        "rationale"
+      ],
+      "title": "OrganicDocumentFinding",
+      "type": "object"
+    },
+    "PredictedLabel": {
+      "enum": [
+        "real",
+        "nonexistent_case",
+        "fabricated_quote",
+        "misattributed_holding",
+        "uncertain_needs_review"
+      ],
+      "title": "PredictedLabel",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "findings": {
+      "items": {
+        "$ref": "#/$defs/OrganicDocumentFinding"
+      },
+      "title": "Findings",
+      "type": "array"
+    },
+    "item_id": {
+      "title": "Item Id",
+      "type": "string"
+    },
+    "tool_calls": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Tool Calls",
+      "type": "array"
+    }
+  },
+  "required": [
+    "item_id",
+    "findings"
+  ],
+  "title": "OrganicDocumentPrediction",
+  "type": "object"
+}

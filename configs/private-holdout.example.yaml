@@ -1,0 +1,11 @@
+# Organizer-only example. The referenced datasets live outside the repository in
+# encrypted private storage mounted into the evaluator worker.
+dataset: ${SANCTIONBENCH_PRIVATE_CITATION_DATASET}
+document_dataset: ${SANCTIONBENCH_PRIVATE_DOCUMENT_DATASET}
+output_dir: ${SANCTIONBENCH_PRIVATE_RESULTS_DIR}
+providers:
+  - provider: openai
+    model_env: SANCTIONBENCH_OPENAI_MODEL
+conditions: [closed_book, tool_assisted]
+seed: 20260711
+resume: true

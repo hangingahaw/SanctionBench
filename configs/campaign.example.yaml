@@ -1,0 +1,27 @@
+dataset: data/gold/v1/citation_items.jsonl
+document_dataset: data/gold/v1/document_scenarios.jsonl
+output_dir: results/runs
+providers:
+  - provider: openai
+    model_env: SANCTIONBENCH_OPENAI_MODEL
+  - provider: anthropic
+    model_env: SANCTIONBENCH_ANTHROPIC_MODEL
+  - provider: google
+    model_env: SANCTIONBENCH_GOOGLE_MODEL
+conditions: [closed_book, tool_assisted]
+seed: 20260711
+resume: true
+
+# No max_items means the full v1 citation and document tracks. This file is
+# intentionally never launched by any make target: every live call costs money.
+# The CLI requires --max-provider-requests 2916,
+# --max-provider-input-bytes 2108017008, and --max-courtlistener-requests 12528
+# for this three-provider retry-inclusive plan. Approvals are intentionally not
+# stored in this manifest.
+#
+# Optional contamination filter (the cutoff is exclusive and matched pairs are
+# kept intact):
+# temporal_cutoff:
+#   field: first_observed_snapshot_date  # or database_entry_date
+#   cutoff_date: "2025-12-31"
+#   missing: exclude  # or error

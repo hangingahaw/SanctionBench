@@ -1,0 +1,12 @@
+{
+  "attempts_started_by_item": {
+    "sb-v1-document-001": 1
+  },
+  "counting_semantics": "durable pre-request count; a crash after checkpointing but before transport may conservatively overcount one attempt",
+  "provider_request_count": 1,
+  "run_identity_sha256": "da8a6506d71abf906b1b38c36d6046e78c9eee2a5c7d17cf79c76ffb6f864c31",
+  "schema_version": "sanctionbench.provider_request_attempts.v1",
+  "selected_ids": [
+    "sb-v1-document-001"
+  ]
+}

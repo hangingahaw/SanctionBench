@@ -1,0 +1,35 @@
+{
+  "benchmark_version": "1.0.0",
+  "entries": [
+    {
+      "citation_closed_false_positive_rate": 0.333333,
+      "citation_closed_sanction_score": 41.666667,
+      "citation_tool_false_positive_rate": 0.083333,
+      "citation_tool_sanction_score": 100.0,
+      "dataset_sha256": "5241f8f9e79c3b4cdfa033a5423c47c6bd2758098113353ca25e54562f748607",
+      "document_closed_sanction_score": 75.0,
+      "document_tool_clean_audit_rate": 1.0,
+      "document_tool_extra_verifications_per_document": 1.0,
+      "document_tool_sanction_score": 100.0,
+      "document_tool_zero_fp_rate": 0.0,
+      "model_name": "deterministic-rule-based-v1",
+      "model_provider": "mock",
+      "model_query_count": 50,
+      "model_revision": "deterministic-rule-based-v1",
+      "official": false,
+      "organic_clean_control_false_alarm_rate": null,
+      "organic_closed_clean_audit_rate": null,
+      "organic_closed_sanction_score": null,
+      "organic_diagnosis_accuracy_on_caught": null,
+      "organic_extra_verifications_per_document": null,
+      "organic_page_accuracy_on_caught": null,
+      "runner_commit": "73f94e517f522b8883292a5a6ad23e45a10144b0",
+      "submission_id": "mock-deterministic-rule-based-v1-ea0583a8540afa8b",
+      "tier": "development_mock"
+    }
+  ],
+  "generated_from_submission_count": 1,
+  "official_submission_count": 0,
+  "schema_version": "sanctionbench.leaderboard.v1",
+  "warning": "Development mock and self-reported results are not official. Official results require an organizer-run private-holdout evaluation."
+}

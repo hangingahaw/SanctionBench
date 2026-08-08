@@ -1,0 +1,131 @@
+{
+  "$defs": {
+    "DocumentAuthorityGold": {
+      "additionalProperties": false,
+      "properties": {
+        "authority_id": {
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Authority Id",
+          "type": "string"
+        },
+        "citation": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Citation",
+          "type": "string"
+        },
+        "citation_item_id": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Citation Item Id",
+          "type": "string"
+        },
+        "end_char": {
+          "title": "End Char",
+          "type": "integer"
+        },
+        "gold_label": {
+          "$ref": "#/$defs/GoldLabel"
+        },
+        "start_char": {
+          "title": "Start Char",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "authority_id",
+        "citation_item_id",
+        "citation",
+        "gold_label",
+        "start_char",
+        "end_char"
+      ],
+      "title": "DocumentAuthorityGold",
+      "type": "object"
+    },
+    "GoldLabel": {
+      "enum": [
+        "real",
+        "nonexistent_case",
+        "fabricated_quote",
+        "misattributed_holding"
+      ],
+      "title": "GoldLabel",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "authorities": {
+      "items": {
+        "$ref": "#/$defs/DocumentAuthorityGold"
+      },
+      "maxItems": 512,
+      "title": "Authorities",
+      "type": "array"
+    },
+    "construction_manifest": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 512,
+      "title": "Construction Manifest",
+      "type": "array"
+    },
+    "document_text": {
+      "maxLength": 4000000,
+      "title": "Document Text",
+      "type": "string"
+    },
+    "item_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Item Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "sanctionbench.document.v1",
+      "default": "sanctionbench.document.v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_decision_dates": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 512,
+      "title": "Source Decision Dates",
+      "type": "array"
+    },
+    "task_type": {
+      "const": "document_audit",
+      "default": "document_audit",
+      "title": "Task Type",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 1000,
+      "title": "Title",
+      "type": "string"
+    },
+    "track": {
+      "enum": [
+        "organic_brief",
+        "constructed_from_organic"
+      ],
+      "title": "Track",
+      "type": "string"
+    }
+  },
+  "required": [
+    "item_id",
+    "title",
+    "document_text",
+    "track",
+    "authorities",
+    "source_decision_dates"
+  ],
+  "title": "DocumentScenario",
+  "type": "object"
+}

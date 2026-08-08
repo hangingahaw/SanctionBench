@@ -1,0 +1,107 @@
+{
+  "condition": "tool_assisted",
+  "created_at": "2026-08-07T23:51:46Z",
+  "dataset_path": "data/gold/v1/document_scenarios.jsonl",
+  "dataset_sha256": "d18c944f1e7f54d2343af80297282646686ceae9c282a879e6d991f273529bce",
+  "item_count": 20,
+  "metadata": {
+    "checkpoint_write_event_count": 4,
+    "courtlistener_request_attempts_path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/courtlistener_request_attempts.json",
+    "courtlistener_request_attempts_sha256": "5282ea17f0e33a971c7c8e3343eb07acc573e7f5dc0dbfcd799a90702264daab",
+    "courtlistener_request_count": 0,
+    "cumulative_checkpoint_bytes_written": 88775,
+    "document_count": 1,
+    "document_temporal_filter": {
+      "eligible_document_count": 10,
+      "excluded_document_count": 0,
+      "input_document_count": 10,
+      "selected_document_count": 1
+    },
+    "finalized_run_identity": {
+      "benchmark_release_status": "development_public_gold",
+      "courtlistener_request_attempts_sha256": "5282ea17f0e33a971c7c8e3343eb07acc573e7f5dc0dbfcd799a90702264daab",
+      "metrics_sha256": "3298c09a71dd1e079445ea14c5a0fe1e616c177f10adcb676b31f9100fffe575",
+      "predictions_sha256": "ef2ede3087d2f178649fc215bb798605156843caf71902393b25a3c37f4d33a0",
+      "provider_request_attempts_sha256": "53e08d3b6fe52d7586eb418c8af7bc266a719d27d11f911570cad89ec07b1b1c",
+      "provider_request_count": 1,
+      "run_identity_sha256": "4be40196ca71e496fd57203d85a830fe30f77798c2166f029f832f80949fefc8",
+      "run_record_core_sha256": "779788d7160f5a751de822421b6c4ff318334112ee613b1e9e8f23d9b84aa8e8",
+      "schema_version": "sanctionbench.finalized_run_identity.v2",
+      "successful_response_count": 1,
+      "tool_evidence_sha256": "ce16d483ff815993816699ef1e753d32b802448e51e23decc6ef4585ccab3ae7"
+    },
+    "finalized_run_identity_sha256": "32c31447a5e01c1c112c52caf5c4f8070499bfbf99e432daff484b372b3122af",
+    "git_commit": "73f94e517f522b8883292a5a6ad23e45a10144b0",
+    "git_dirty": true,
+    "git_state_at_manifest_start": {
+      "commit": "73f94e517f522b8883292a5a6ad23e45a10144b0",
+      "dirty": true,
+      "status_entry_count": 238,
+      "status_sha256": "baece927d2f36c404c483e6346c824ff2298c68d896fd94525ad5efed9965ea7"
+    },
+    "maximum_cumulative_checkpoint_write_bytes": 268435456,
+    "mock_warning": "NO LIVE MODEL CALLS: deterministic rule-based client",
+    "prompt_and_output_schema_sha256": "4177ec23027890d54d5b111ca9be8bf54ebb7e25a58c65f9b5c7f927ffed78f0",
+    "provider_request_attempts_path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/request_attempts.json",
+    "provider_request_count": 1,
+    "resume_enabled": true,
+    "retry_or_interrupted_request_count": 0,
+    "run_identity": {
+      "condition": "tool_assisted",
+      "config_sha256": "c93479dbbc5c86589bca173029b9698e0d6d7c605f7b634615f1a1b325522800",
+      "dataset_sha256": "d18c944f1e7f54d2343af80297282646686ceae9c282a879e6d991f273529bce",
+      "model": "deterministic-rule-based-v1",
+      "prompt_and_output_schema_sha256": "4177ec23027890d54d5b111ca9be8bf54ebb7e25a58c65f9b5c7f927ffed78f0",
+      "provider": "mock",
+      "provider_protocol_version": "deterministic-mock-v1",
+      "provider_runtime_identity": {
+        "protocol_version": "deterministic-mock-v1"
+      },
+      "reference_dataset_sha256": "5241f8f9e79c3b4cdfa033a5423c47c6bd2758098113353ca25e54562f748607",
+      "resource_budget": {
+        "approved_max_courtlistener_requests": 528,
+        "approved_max_provider_input_bytes": null,
+        "approved_max_provider_requests": null,
+        "maximum_courtlistener_lookups_per_run": 512,
+        "maximum_cumulative_checkpoint_write_bytes": 268435456,
+        "per_provider_request_input_byte_limit": 16777216,
+        "retry_inclusive_courtlistener_request_ceiling": 528,
+        "retry_inclusive_provider_input_byte_ceiling": 0,
+        "retry_inclusive_provider_request_ceiling": 0,
+        "runner_courtlistener_response_byte_limit": 262144
+      },
+      "runtime_source_sha256": "9682ca529e3027aaa265fceda43721e24a23aaac9fda934186068c67cc2660cb",
+      "schema_version": "sanctionbench.run_identity.v6",
+      "seed": 20260711,
+      "selected_ids": [
+        "sb-v1-document-001"
+      ],
+      "subset_sha256": "203edd45fddbb31b8e385bdf27d6936dd455323e9954301f80bd4f53b921713a",
+      "task_type": "document_audit",
+      "temporal_cutoff": null,
+      "tool_spec_version": "courtlistener_v4_citation_lookup.v6"
+    },
+    "run_identity_sha256": "4be40196ca71e496fd57203d85a830fe30f77798c2166f029f832f80949fefc8",
+    "successful_response_count": 1,
+    "task_type": "document_audit",
+    "temperature": 0,
+    "temporal_filter": {
+      "applied": false,
+      "eligible_item_count": 152,
+      "input_item_count": 152
+    },
+    "tool_evidence_item_count": 1,
+    "tool_evidence_path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/tool_evidence.json",
+    "tool_evidence_sha256": "ce16d483ff815993816699ef1e753d32b802448e51e23decc6ef4585ccab3ae7",
+    "track": "constructed_from_organic",
+    "usage_accounting": "request_count_recorded_tokens_unavailable"
+  },
+  "metrics_path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/metrics.json",
+  "mock": true,
+  "model": "deterministic-rule-based-v1",
+  "predictions_path": "results/smoke/mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496/predictions.jsonl",
+  "provider": "mock",
+  "run_id": "mock--deterministic-rule-based-v1--document-audit--tool-assisted--4be40196ca71e496",
+  "schema_version": "sanctionbench.run.v1",
+  "seed": 20260711
+}

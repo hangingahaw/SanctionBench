@@ -1,0 +1,14 @@
+# DeepSeek is a benchmark contestant only. It is never used as a gold reviewer.
+dataset: ${SANCTIONBENCH_ORGANIC_DOCUMENT_DATASET}
+output_dir: results/runs/organic-deepseek
+providers:
+  - provider: deepseek
+    model_env: SANCTIONBENCH_DEEPSEEK_MODEL
+conditions: [closed_book]
+repetitions: 1
+seed: 20260711
+resume: true
+
+# One repetition targets one isolated successful response per document; retry attempts are counted.
+# For the current 125-document population, pass --max-provider-requests 375 explicitly and
+# --max-provider-input-bytes at or above the conservative retry-inclusive value reported by the runner.

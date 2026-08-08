@@ -1,0 +1,1158 @@
+{
+  "evidence_by_item": {
+    "sb-v1-document-001": {
+      "A01": {
+        "citation_search_key": "9 F. Supp. 2d 1028",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "American Building Maintenance Co. v. 1000 Water Street Condominium Ass'n",
+            "case_name_similarity": 0.926471,
+            "citation_match": true,
+            "citations": [
+              "9 F. Supp. 2d 1028",
+              "1998 U.S. Dist. LEXIS 9812",
+              "1998 WL 354335"
+            ],
+            "court": "E.D. Wis.",
+            "date_filed": "1998-06-30",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2387547/american-building-maintenance-co-v-1000-water-street-condominium-assn/"
+          },
+          {
+            "case_name": "First Transit, Inc. v. City of Racine",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "359 F. Supp. 2d 782",
+              "2005 U.S. Dist. LEXIS 4592",
+              "2005 WL 639626"
+            ],
+            "court": "E.D. Wis.",
+            "date_filed": "2005-03-09",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2470874/first-transit-inc-v-city-of-racine/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"9 F. Supp. 2d 1028\"",
+        "reported_count": 2,
+        "requested_case_name": "American Building Maintenance Co. v. 1000 Water Street Condominium Association",
+        "requested_citation": "9 F. Supp. 2d 1028 (E.D. Wis. 1998)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%229+F.+Supp.+2d+1028%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A02": {
+        "citation_search_key": "233 F. Supp. 3d 1021",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "Pueblo of Pojoaque v. New Mexico",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "233 F. Supp. 3d 1021",
+              "2017 U.S. Dist. LEXIS 18662",
+              "2017 WL 2266857"
+            ],
+            "court": "D.N.M.",
+            "date_filed": "2017-02-09",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7324099/pueblo-of-pojoaque-v-new-mexico/"
+          },
+          {
+            "case_name": "John Doe, et al. v. Commissioner, New Hampshire Department of Health and Human Services",
+            "case_name_similarity": 0.071429,
+            "citation_match": false,
+            "citations": [
+              "2021 DNH 048"
+            ],
+            "court": "D.N.H.",
+            "date_filed": "2021-03-08",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/10693245/john-doe-et-al-v-commissioner-new-hampshire-department-of-health-and/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"233 F. Supp. 3d 1021\"",
+        "reported_count": 2,
+        "requested_case_name": "Pueblo of Pojoaque v. New Mexico",
+        "requested_citation": "233 F. Supp. 3d 1021 (D.N.M. 2017)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22233+F.+Supp.+3d+1021%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A03": {
+        "citation_search_key": "496 U.S. 53",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "Begier v. Internal Revenue Service",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "110 L. Ed. 2d 46",
+              "110 S. Ct. 2258",
+              "496 U.S. 53",
+              "1990 U.S. LEXIS 2925"
+            ],
+            "court": "SCOTUS",
+            "date_filed": "1990-06-04",
+            "identity_match": true,
+            "opinion_record_count": 3,
+            "url": "https://www.courtlistener.com/opinion/112445/begier-v-internal-revenue-service/"
+          },
+          {
+            "case_name": "United States v. Bradley Olson",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "98 F.4th 840"
+            ],
+            "court": "7th Cir.",
+            "date_filed": "2024-04-11",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/9492917/united-states-v-bradley-olson/"
+          },
+          {
+            "case_name": "Diamond Offshore Co. v. Bennu Oil & Gas, LLC (In re ATP Oil & Gas Corp.)",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "540 B.R. 294"
+            ],
+            "court": "Bankr. S.D. Tex.",
+            "date_filed": "2015-10-28",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8526353/diamond-offshore-co-v-bennu-oil-gas-llc-in-re-atp-oil-gas-corp/"
+          },
+          {
+            "case_name": "Law Office of Rogelio Solis v. Curtis",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "83 F.4th 409"
+            ],
+            "court": "5th Cir.",
+            "date_filed": "2023-10-06",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/9431307/law-office-of-rogelio-solis-v-curtis/"
+          },
+          {
+            "case_name": "In re EEE Auto Sales, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "466 B.R. 802",
+              "2011 WL 2078544"
+            ],
+            "court": "Bankr. E.D. Va.",
+            "date_filed": "2011-05-26",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8522161/in-re-eee-auto-sales-inc/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"496 U.S. 53\"",
+        "reported_count": 541,
+        "requested_case_name": "Begier v. Internal Revenue Service",
+        "requested_citation": "496 U.S. 53 (1990)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22496+U.S.+53%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A04": {
+        "citation_search_key": "114 F.3d 378",
+        "exact_identity_match_count": 0,
+        "matches": [],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"114 F.3d 378\"",
+        "reported_count": 0,
+        "requested_case_name": "Lopez v. Mendez",
+        "requested_citation": "114 F.3d 378 (8th Cir. 1997)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22114+F.3d+378%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A05": {
+        "citation_search_key": "925 F.3d 1291",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "J.D. v. Alex Azar, II",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "925 F.3d 1291"
+            ],
+            "court": "D.C. Cir.",
+            "date_filed": "2019-06-14",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4629684/jd-v-alex-azar-ii/"
+          },
+          {
+            "case_name": "Patsy Widakuswara v. Kari Lake & Michael Abramowitz v. Kari Lake",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "D.C. Cir.",
+            "date_filed": "2025-05-28",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/10593950/patsy-widakuswara-v-kari-lake-michael-abramowitz-v-kari-lake/"
+          },
+          {
+            "case_name": "Crawford v. Walsh",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "D.D.C.",
+            "date_filed": "2022-03-31",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/6456453/crawford-v-walsh/"
+          },
+          {
+            "case_name": "Anthony Givens v. Muriel Bowser",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "111 F.4th 117"
+            ],
+            "court": "D.C. Cir.",
+            "date_filed": "2024-08-06",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/10032372/anthony-givens-v-muriel-bowser/"
+          },
+          {
+            "case_name": "Schneeberger Inc. v. U.S. Department of State",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "D.D.C.",
+            "date_filed": "2025-08-06",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/10649003/schneeberger-inc-v-us-department-of-state/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"925 F.3d 1291\"",
+        "reported_count": 83,
+        "requested_case_name": "J.D. v. Alex Azar, II",
+        "requested_citation": "925 F.3d 1291 (D.C. Cir. 2019)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22925+F.3d+1291%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A06": {
+        "citation_search_key": "1 Cal. 5th 409",
+        "claim_search": {
+          "matching_case_names": [],
+          "query": "\"1 Cal. 5th 409 (2016)\" \"Government officials may not use anti-SLAPP protection to avoid liability for tortious conduct connected to speech.\"",
+          "reported_count": 0,
+          "response_sha256": "0595424161ea863805d9b92c0e52d7aa1e3c46ec58cd8f0d6933759006a5fb74",
+          "warning": "Exact proposition search can miss paraphrases; a zero result requires review rather than proving the proposition false."
+        },
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "City of Montebello v. Vasquez",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "1 Cal. 5th 409",
+              "376 P.3d 624",
+              "205 Cal. Rptr. 3d 499",
+              "2016 Cal. LEXIS 6386"
+            ],
+            "court": "Cal.",
+            "date_filed": "2016-08-08",
+            "identity_match": true,
+            "opinion_record_count": 3,
+            "url": "https://www.courtlistener.com/opinion/4245299/city-of-montebello-v-vasquez/"
+          },
+          {
+            "case_name": "In re Robinson",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "247 Cal. Rptr. 3d 242",
+              "35 Cal. App. 5th 421"
+            ],
+            "court": "Cal. Ct. App. 5th",
+            "date_filed": "2019-05-16",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/6240486/in-re-robinson/"
+          },
+          {
+            "case_name": "In re Robinson",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2019-05-16",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4620561/in-re-robinson/"
+          },
+          {
+            "case_name": "People v. Financial Casualty and Surety, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2019-10-10",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4668667/people-v-financial-casualty-and-surety-inc/"
+          },
+          {
+            "case_name": "Mary's Kitchen v. City of Orange",
+            "case_name_similarity": 0.142857,
+            "citation_match": false,
+            "citations": [],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2023-10-25",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/9435159/marys-kitchen-v-city-of-orange/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"1 Cal. 5th 409\"",
+        "reported_count": 64,
+        "requested_case_name": "City of Montebello v. Vasquez",
+        "requested_citation": "1 Cal. 5th 409 (2016)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%221+Cal.+5th+409%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A07": {
+        "citation_search_key": "96 F.3d 537",
+        "exact_identity_match_count": 0,
+        "matches": [],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"96 F.3d 537\"",
+        "reported_count": 0,
+        "requested_case_name": "Gresk v. Demetris",
+        "requested_citation": "96 F.3d 537 (4th Cir. 2019)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%2296+F.3d+537%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A08": {
+        "citation_search_key": "98 Cal. App. 4th 892",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "Kashian v. Harriman",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "120 Cal. Rptr. 2d 576",
+              "98 Cal. App. 4th 892",
+              "2002 Daily Journal DAR 5707",
+              "2002 Cal. Daily Op. Serv. 4482",
+              "2002 Cal. App. LEXIS 4143"
+            ],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2002-05-23",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2276318/kashian-v-harriman/"
+          },
+          {
+            "case_name": "American Products Co. v. Law Offices of Geller, Stewart & Foley",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "37 Cal. Rptr. 3d 93",
+              "134 Cal. App. 4th 1332",
+              "2005 Cal. Daily Op. Serv. 10652",
+              "2005 Daily Journal DAR 14548",
+              "2005 Cal. App. LEXIS 1921"
+            ],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2005-12-16",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2251187/american-products-co-v-law-offices-of-geller-stewart-foley/"
+          },
+          {
+            "case_name": "Drell v. Cohen",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "232 Cal. App. 4th 24",
+              "181 Cal. Rptr. 3d 191",
+              "2014 Cal. App. LEXIS 1105"
+            ],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2014-12-05",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2757989/drell-v-cohen/"
+          },
+          {
+            "case_name": "Visher v. City of Malibu",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "23 Cal. Rptr. 3d 816",
+              "126 Cal. App. 4th 364"
+            ],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2005-02-01",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2259364/visher-v-city-of-malibu/"
+          },
+          {
+            "case_name": "Visher v. City of Malibu",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "126 Cal. App. 4th 364",
+              "23 Cal. Rptr. 3d 816",
+              "2005 Cal. Daily Op. Serv. 961",
+              "2005 Daily Journal DAR 1355",
+              "2005 Cal. App. LEXIS 162"
+            ],
+            "court": "Cal. Ct. App.",
+            "date_filed": "2005-02-01",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/5809228/visher-v-city-of-malibu/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"98 Cal. App. 4th 892\"",
+        "reported_count": 118,
+        "requested_case_name": "Kashian v. Harriman",
+        "requested_citation": "98 Cal. App. 4th 892 (2002)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%2298+Cal.+App.+4th+892%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A09": {
+        "citation_search_key": "516 F.3d 1235",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "Miccosukee Tribe of Indians of Florida v. United States",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "516 F.3d 1235",
+              "38 Envtl. L. Rep. (Envtl. Law Inst.) 20049",
+              "2008 U.S. App. LEXIS 3220",
+              "2008 WL 397390"
+            ],
+            "court": "11th Cir.",
+            "date_filed": "2008-02-15",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/77938/miccosukee-tribe-of-indians-of-florida-v-united-states/"
+          },
+          {
+            "case_name": "Southern Poverty Law Ctr. v. U.S. Dept., Homeland",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "359 F. Supp. 3d 1267"
+            ],
+            "court": "N.D. Ga.",
+            "date_filed": "2018-07-26",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7334228/southern-poverty-law-ctr-v-us-dept-homeland/"
+          },
+          {
+            "case_name": "Morera v. Sears, Roebuck & Co.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "141 F. Supp. 3d 1335",
+              "2015 U.S. Dist. LEXIS 150367"
+            ],
+            "court": "S.D. Fla.",
+            "date_filed": "2015-10-19",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7316569/morera-v-sears-roebuck-co/"
+          },
+          {
+            "case_name": "Perkins v. United States",
+            "case_name_similarity": 0.537313,
+            "citation_match": false,
+            "citations": [
+              "339 F. Supp. 3d 1309"
+            ],
+            "court": "S.D. Fla.",
+            "date_filed": "2018-09-06",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7332593/perkins-v-united-states/"
+          },
+          {
+            "case_name": "Holbourn v. NCL (Bahamas) Ltd.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "305 F.R.D. 685",
+              "2014 U.S. Dist. LEXIS 183589",
+              "2014 WL 8630709"
+            ],
+            "court": "S.D. Fla.",
+            "date_filed": "2014-09-26",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8788663/holbourn-v-ncl-bahamas-ltd/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"516 F.3d 1235\"",
+        "reported_count": 73,
+        "requested_case_name": "Miccosukee Tribe of Indians of Florida v. United States",
+        "requested_citation": "516 F.3d 1235 (11th Cir. 2008)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22516+F.3d+1235%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A10": {
+        "citation_search_key": "667 A.2d 867",
+        "exact_identity_match_count": 0,
+        "matches": [],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"667 A.2d 867\"",
+        "reported_count": 0,
+        "requested_case_name": "In re Lotti",
+        "requested_citation": "667 A.2d 867 (Md. 1995)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22667+A.2d+867%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A11": {
+        "citation_search_key": "556 F.3d 736",
+        "exact_identity_match_count": 0,
+        "matches": [
+          {
+            "case_name": "United States v. Gonzalez-Zotelo",
+            "case_name_similarity": 0.0,
+            "citation_match": true,
+            "citations": [
+              "556 F.3d 736",
+              "2009 U.S. App. LEXIS 351",
+              "2009 WL 37144"
+            ],
+            "court": "9th Cir.",
+            "date_filed": "2009-01-08",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/1464556/united-states-v-gonzalez-zotelo/"
+          },
+          {
+            "case_name": "United States v. Mason",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "529 F. App'x 842"
+            ],
+            "court": "9th Cir.",
+            "date_filed": "2013-06-20",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8481312/united-states-v-mason/"
+          },
+          {
+            "case_name": "United States v. Alford",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "519 F. App'x 495"
+            ],
+            "court": "9th Cir.",
+            "date_filed": "2013-05-21",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8690114/united-states-v-alford/"
+          },
+          {
+            "case_name": "United States v. Hellman",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "391 F. App'x 614"
+            ],
+            "court": "9th Cir.",
+            "date_filed": "2010-08-04",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8508190/united-states-v-hellman/"
+          },
+          {
+            "case_name": "United States v. Arevalo-Hernandez",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "414 F. App'x 914"
+            ],
+            "court": "9th Cir.",
+            "date_filed": "2011-01-24",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8466143/united-states-v-arevalo-hernandez/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"556 F.3d 736\"",
+        "reported_count": 44,
+        "requested_case_name": "Fitzgerald v. Fairfax County School Board",
+        "requested_citation": "556 F.3d 736 (4th Cir. 2009)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22556+F.3d+736%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A12": {
+        "citation_search_key": "10 F.3d 501",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "William McNabola v. Chicago Transit Authority",
+            "case_name_similarity": 0.894737,
+            "citation_match": true,
+            "citations": [
+              "10 F.3d 501",
+              "27 Fed. R. Serv. 3d 735",
+              "1993 U.S. App. LEXIS 31018",
+              "63 Empl. Prac. Dec. (CCH) 42,686",
+              "63 Fair Empl. Prac. Cas. (BNA) 1064",
+              "1993 WL 484173"
+            ],
+            "court": "7th Cir.",
+            "date_filed": "1993-11-24",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/658151/william-mcnabola-v-chicago-transit-authority/"
+          },
+          {
+            "case_name": "Barrington Music Products, Inc v. Music & Arts Center",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "924 F.3d 966"
+            ],
+            "court": "7th Cir.",
+            "date_filed": "2019-05-22",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4622116/barrington-music-products-inc-v-music-arts-center/"
+          },
+          {
+            "case_name": "Barrington Music Products, Inc v. Music & Arts Center",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "7th Cir.",
+            "date_filed": "2019-05-22",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4622366/barrington-music-products-inc-v-music-arts-center/"
+          },
+          {
+            "case_name": "Seventh Avenue, Inc. v. Shaf International, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "909 F.3d 878"
+            ],
+            "court": "7th Cir.",
+            "date_filed": "2018-11-30",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4568749/seventh-avenue-inc-v-shaf-international-inc/"
+          },
+          {
+            "case_name": "Seventh Avenue, Inc. v. Shaf International, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "7th Cir.",
+            "date_filed": "2018-11-30",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4568979/seventh-avenue-inc-v-shaf-international-inc/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"10 F.3d 501\"",
+        "reported_count": 259,
+        "requested_case_name": "McNabola v. Chicago Transit Authority",
+        "requested_citation": "10 F.3d 501 (7th Cir. 1993)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%2210+F.3d+501%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A13": {
+        "citation_search_key": "572 F.3d 198",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "Baum v. Rushton",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "572 F.3d 198",
+              "2009 U.S. App. LEXIS 15761",
+              "2009 WL 2052955"
+            ],
+            "court": "4th Cir.",
+            "date_filed": "2009-07-16",
+            "identity_match": true,
+            "opinion_record_count": 3,
+            "url": "https://www.courtlistener.com/opinion/1029450/baum-v-rushton/"
+          },
+          {
+            "case_name": "Baum v. Rushton",
+            "case_name_similarity": 1.0,
+            "citation_match": false,
+            "citations": [
+              "176 L. Ed. 2d 193",
+              "2010 U.S. LEXIS 2043",
+              "130 S. Ct. 1704",
+              "559 U.S. 979",
+              "78 U.S.L.W. 3499"
+            ],
+            "court": "SCOTUS",
+            "date_filed": "2010-03-01",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/6791689/baum-v-rushton/"
+          },
+          {
+            "case_name": "Commonwealth v. Davis",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "79 Va. Cir. 526",
+              "2009 Va. Cir. LEXIS 199"
+            ],
+            "court": "Norfolk Cir. Ct.",
+            "date_filed": "2009-11-20",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8686321/commonwealth-v-davis/"
+          },
+          {
+            "case_name": "State v. Anderson",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "988 A.2d 276",
+              "295 Conn. 1",
+              "2010 Conn. LEXIS 55"
+            ],
+            "court": "Conn.",
+            "date_filed": "2010-03-02",
+            "identity_match": false,
+            "opinion_record_count": 2,
+            "url": "https://www.courtlistener.com/opinion/1546178/state-v-anderson/"
+          },
+          {
+            "case_name": "State v. Grays",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "N.C. Ct. App.",
+            "date_filed": "2021-02-02",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/10019693/state-v-grays/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"572 F.3d 198\"",
+        "reported_count": 14,
+        "requested_case_name": "Baum v. Rushton",
+        "requested_citation": "572 F.3d 198 (4th Cir. 2009)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22572+F.3d+198%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A14": {
+        "citation_search_key": "489 F.3d 126",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "Lin Zhong v. United States Department of Justice, & Attorney General Gonzales",
+            "case_name_similarity": 0.763636,
+            "citation_match": true,
+            "citations": [
+              "489 F.3d 126",
+              "2007 U.S. App. LEXIS 12530"
+            ],
+            "court": "2d Cir.",
+            "date_filed": "2007-05-31",
+            "identity_match": true,
+            "opinion_record_count": 4,
+            "url": "https://www.courtlistener.com/opinion/797993/lin-zhong-v-united-states-department-of-justice-attorney-general/"
+          },
+          {
+            "case_name": "Nilaj v. Mukasey",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "260 F. App'x 416"
+            ],
+            "court": "2d Cir.",
+            "date_filed": "2008-01-28",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8646373/nilaj-v-mukasey/"
+          },
+          {
+            "case_name": "Xiu Qin Chen v. Gonzales",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "239 F. App'x 667"
+            ],
+            "court": "2d Cir.",
+            "date_filed": "2007-08-30",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8643051/xiu-qin-chen-v-gonzales/"
+          },
+          {
+            "case_name": "Hua Guo v. Gonzales",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "240 F. App'x 901"
+            ],
+            "court": "2d Cir.",
+            "date_filed": "2007-07-17",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8643188/hua-guo-v-gonzales/"
+          },
+          {
+            "case_name": "Pedreros v. Keisler",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "503 F.3d 162",
+              "2007 WL 2851053"
+            ],
+            "court": "2d Cir.",
+            "date_filed": "2007-10-03",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/1217979/pedreros-v-keisler/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"489 F.3d 126\"",
+        "reported_count": 15,
+        "requested_case_name": "Lin Zhong v. United States Department of Justice",
+        "requested_citation": "489 F.3d 126 (2d Cir. 2007)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22489+F.3d+126%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A15": {
+        "citation_search_key": "38 F.3d 544",
+        "exact_identity_match_count": 0,
+        "matches": [],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"38 F.3d 544\"",
+        "reported_count": 0,
+        "requested_case_name": "Gonzales v. McCarthy",
+        "requested_citation": "38 F.3d 544 (9th Cir. 1994)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%2238+F.3d+544%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A16": {
+        "citation_search_key": "174 F.3d 352",
+        "exact_identity_match_count": 0,
+        "matches": [
+          {
+            "case_name": "Charles Greenleaf, Jr., Alternate of the Estate of Charles Greenleaf, Sr., Deceased Naomi Greenleaf, in Her Own Right v. Garlock, Inc. Fibreboard Corporation Celotex Corporation Owens Corning Fiberglas Corp. Owens-Illinois Glass Co. Eagle-Picher Industries, Inc. John Crane-Houdaille, Inc. A.W. Chesterton Sepco Corp. Uniroyal, Inc. Owens Corning Fiberglas Corp. Owens-Illinois Glass Co., Third-Party v. Hopeman Brothers, Inc. Combustion Engineering, Inc. Anchor Packing Co., Inc. Armstrong World Ind",
+            "case_name_similarity": 0.103343,
+            "citation_match": true,
+            "citations": [
+              "174 F.3d 352"
+            ],
+            "court": "3rd Cir.",
+            "date_filed": "1999-04-26",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/763469/charles-greenleaf-jr-alternate-of-the-estate-of-charles-greenleaf-sr/"
+          },
+          {
+            "case_name": "Lewis v. Lycoming",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "876 F. Supp. 2d 497",
+              "2012 U.S. Dist. LEXIS 64986",
+              "2012 WL 1623006"
+            ],
+            "court": "E.D. Pa.",
+            "date_filed": "2012-05-09",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8717136/lewis-v-lycoming/"
+          },
+          {
+            "case_name": "Schlessinger v. Schlessinger",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "208 F. App'x 131"
+            ],
+            "court": "3rd Cir.",
+            "date_filed": "2006-12-14",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8626256/schlessinger-v-schlessinger/"
+          },
+          {
+            "case_name": "Olechna v. Dinoia",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "34 F. App'x 849"
+            ],
+            "court": "3rd Cir.",
+            "date_filed": "2002-04-12",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7261781/olechna-v-dinoia/"
+          },
+          {
+            "case_name": "Twin City Pipe Trades Service Ass'n v. Wenner Quality Services, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "869 F.3d 672",
+              "2017 WL 3707417",
+              "209 L.R.R.M. (BNA) 3499",
+              "2017 U.S. App. LEXIS 16468"
+            ],
+            "court": "8th Cir.",
+            "date_filed": "2017-08-29",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/4422389/twin-city-pipe-trades-service-assn-v-wenner-quality-services-inc/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"174 F.3d 352\"",
+        "reported_count": 98,
+        "requested_case_name": "Greenleaf v. Garlock, Inc.",
+        "requested_citation": "174 F.3d 352 (3d Cir. 1999)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22174+F.3d+352%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A17": {
+        "citation_search_key": "755 F. Supp. 2d 909",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "DeGeer v. Gillis",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "755 F. Supp. 2d 909",
+              "2010 U.S. Dist. LEXIS 129745",
+              "2010 WL 5096563"
+            ],
+            "court": "N.D. Ill.",
+            "date_filed": "2010-12-08",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2475777/degeer-v-gillis/"
+          },
+          {
+            "case_name": "Seattle Times Co. v. Leathercare, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "232 F. Supp. 3d 959",
+              "2017 U.S. Dist. LEXIS 3963",
+              "2017 WL 104284"
+            ],
+            "court": "E.D. Mich.",
+            "date_filed": "2017-01-11",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7324007/seattle-times-co-v-leathercare-inc/"
+          },
+          {
+            "case_name": "Stipp v. CML-NV One, LLC (In Re Plise)",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "506 B.R. 870",
+              "2014 WL 1133584",
+              "2014 Bankr. LEXIS 1099"
+            ],
+            "court": "9th Cir. BAP",
+            "date_filed": "2014-03-07",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2672241/stipp-v-cml-nv-one-llc-in-re-plise/"
+          },
+          {
+            "case_name": "American Federation of Musicians v. Skodam Films, LLC",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "313 F.R.D. 39",
+              "2015 U.S. Dist. LEXIS 162091",
+              "2015 WL 7771078"
+            ],
+            "court": "N.D. Tex.",
+            "date_filed": "2015-12-03",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8791190/american-federation-of-musicians-v-skodam-films-llc/"
+          },
+          {
+            "case_name": "Andra Group, LP v. JDA Software Group, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "312 F.R.D. 444",
+              "2015 U.S. Dist. LEXIS 48341",
+              "2015 WL 1636602"
+            ],
+            "court": "N.D. Tex.",
+            "date_filed": "2015-04-13",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/8790836/andra-group-lp-v-jda-software-group-inc/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"755 F. Supp. 2d 909\"",
+        "reported_count": 5,
+        "requested_case_name": "DeGeer v. Gillis",
+        "requested_citation": "755 F. Supp. 2d 909 (N.D. Ill. 2010)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22755+F.+Supp.+2d+909%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A18": {
+        "citation_search_key": "18 F.3d 448",
+        "exact_identity_match_count": 1,
+        "matches": [
+          {
+            "case_name": "prod.liab.rep.(cch)p. 13,803 Ivan Avery, Mary Avery, and Joseph Swango, by His Next Friend, Mary Avery v. Mapco Gas Products, Incorporated, Doing Business as Thermo Gas Company of New Paris v. Honeywell, Incorporated, Ivan Avery, Mary Avery, and Joseph Swango, by His Next Friend, Mary Avery v. Mapco Gas Products, Incorporated, Doing Business as Thermo Gas Company of New Paris, and Honeywell, Incorporated",
+            "case_name_similarity": 0.303665,
+            "citation_match": true,
+            "citations": [
+              "18 F.3d 448"
+            ],
+            "court": "7th Cir.",
+            "date_filed": "1994-03-08",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/664686/prodliabrepcchp-13803-ivan-avery-mary-avery-and-joseph-swango-by/"
+          },
+          {
+            "case_name": "Avery ex rel. Avery v. Mapco Gas Products, Inc.",
+            "case_name_similarity": 1.0,
+            "citation_match": true,
+            "citations": [
+              "18 F.3d 448",
+              "1994 U.S. App. LEXIS 4168"
+            ],
+            "court": "7th Cir.",
+            "date_filed": "1994-03-08",
+            "identity_match": true,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7028200/avery-ex-rel-avery-v-mapco-gas-products-inc/"
+          },
+          {
+            "case_name": "Lewis v. PDV AMERICA, INC.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "532 F. Supp. 2d 1006",
+              "2008 U.S. Dist. LEXIS 6756",
+              "2008 WL 269470"
+            ],
+            "court": "N.D. Ill.",
+            "date_filed": "2008-01-30",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/2325284/lewis-v-pdv-america-inc/"
+          },
+          {
+            "case_name": "Olivares v. Charan Motel, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [
+              "28 F. App'x 542"
+            ],
+            "court": "7th Cir.",
+            "date_filed": "2002-01-31",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/7214431/olivares-v-charan-motel-inc/"
+          },
+          {
+            "case_name": "Tavares Ford, On behalf of herself and all other similarly situated v. Toys R Us, Inc.",
+            "case_name_similarity": 0.0,
+            "citation_match": false,
+            "citations": [],
+            "court": "Tenn. Ct. App.",
+            "date_filed": "2006-03-09",
+            "identity_match": false,
+            "opinion_record_count": 1,
+            "url": "https://www.courtlistener.com/opinion/1053248/tavares-ford-on-behalf-of-herself-and-all-other-si/"
+          }
+        ],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"18 F.3d 448\"",
+        "reported_count": 18,
+        "requested_case_name": "Avery ex rel. Avery v. Mapco Gas Products, Inc.",
+        "requested_citation": "18 F.3d 448 (7th Cir. 1994)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%2218+F.3d+448%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A19": {
+        "citation_search_key": "Eugene G. v. Board of Education (2016)",
+        "exact_identity_match_count": 0,
+        "matches": [],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"Eugene G. v. Board of Education (2016)\"",
+        "reported_count": 0,
+        "requested_case_name": "Eugene G. v. Board of Education",
+        "requested_citation": "Eugene G. v. Board of Education (2016)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22Eugene+G.+v.+Board+of+Education+%282016%29%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      },
+      "A20": {
+        "citation_search_key": "268 F.3d 149",
+        "exact_identity_match_count": 0,
+        "matches": [],
+        "opinion_and_snippet_text_excluded": true,
+        "query": "\"268 F.3d 149\"",
+        "reported_count": 0,
+        "requested_case_name": "Doyle v. New York State Office of Children and Family Services",
+        "requested_citation": "268 F.3d 149 (2d Cir. 2001)",
+        "source": "https://www.courtlistener.com/api/rest/v4/search/?q=%22268+F.3d+149%22&type=o",
+        "warning": "A zero-result search is evidence of absence in CourtListener, not proof that no authority exists in every legal corpus."
+      }
+    }
+  },
+  "evidence_item_count": 1,
+  "receipt_semantics": "exact secret-free model-visible CourtListener evidence, checkpointed before the corresponding provider request and reused on resume",
+  "run_identity_sha256": "4be40196ca71e496fd57203d85a830fe30f77798c2166f029f832f80949fefc8",
+  "schema_version": "sanctionbench.tool_evidence.v1",
+  "selected_ids": [
+    "sb-v1-document-001"
+  ],
+  "tool_spec_version": "courtlistener_v4_citation_lookup.v6"
+}

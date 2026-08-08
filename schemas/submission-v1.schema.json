@@ -1,0 +1,554 @@
+{
+  "$defs": {
+    "SubmissionAttestation": {
+      "additionalProperties": false,
+      "properties": {
+        "organizer_verified": {
+          "const": false,
+          "default": false,
+          "title": "Organizer Verified",
+          "type": "boolean"
+        },
+        "status": {
+          "const": "self_reported",
+          "default": "self_reported",
+          "title": "Status",
+          "type": "string"
+        },
+        "warning": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Warning",
+          "type": "string"
+        }
+      },
+      "required": [
+        "warning"
+      ],
+      "title": "SubmissionAttestation",
+      "type": "object"
+    },
+    "SubmissionPublication": {
+      "additionalProperties": false,
+      "properties": {
+        "contains_private_prompts": {
+          "const": false,
+          "default": false,
+          "title": "Contains Private Prompts",
+          "type": "boolean"
+        },
+        "contains_raw_predictions": {
+          "const": false,
+          "default": false,
+          "title": "Contains Raw Predictions",
+          "type": "boolean"
+        },
+        "contains_reasoning_traces": {
+          "const": false,
+          "default": false,
+          "title": "Contains Reasoning Traces",
+          "type": "boolean"
+        },
+        "publishable": {
+          "title": "Publishable",
+          "type": "boolean"
+        },
+        "result_scope": {
+          "const": "aggregate metrics and reproducibility hashes only",
+          "default": "aggregate metrics and reproducibility hashes only",
+          "title": "Result Scope",
+          "type": "string"
+        }
+      },
+      "required": [
+        "publishable"
+      ],
+      "title": "SubmissionPublication",
+      "type": "object"
+    },
+    "SubmissionRun": {
+      "additionalProperties": false,
+      "properties": {
+        "clean_audit_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clean Audit Rate"
+        },
+        "clean_control_false_alarm_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clean Control False Alarm Rate"
+        },
+        "condition": {
+          "enum": [
+            "closed_book",
+            "tool_assisted"
+          ],
+          "title": "Condition",
+          "type": "string"
+        },
+        "courtlistener_request_attempts_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Courtlistener Request Attempts Sha256"
+        },
+        "diagnosis_accuracy_on_caught": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Diagnosis Accuracy On Caught"
+        },
+        "document_sanction_score": {
+          "anyOf": [
+            {
+              "maximum": 100,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Document Sanction Score"
+        },
+        "extra_verifications_per_document": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Extra Verifications Per Document"
+        },
+        "fake_recall": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Fake Recall",
+          "type": "number"
+        },
+        "false_positive_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "False Positive Rate"
+        },
+        "finalized_run_identity_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Finalized Run Identity Sha256",
+          "type": "string"
+        },
+        "metrics_file_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Metrics File Sha256",
+          "type": "string"
+        },
+        "model": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Model",
+          "type": "string"
+        },
+        "model_query_count": {
+          "minimum": 1,
+          "title": "Model Query Count",
+          "type": "integer"
+        },
+        "page_accuracy_on_caught": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page Accuracy On Caught"
+        },
+        "predictions_file_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Predictions File Sha256",
+          "type": "string"
+        },
+        "prompt_and_output_schema_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Prompt And Output Schema Sha256",
+          "type": "string"
+        },
+        "provider": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Provider",
+          "type": "string"
+        },
+        "provider_request_attempts_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Provider Request Attempts Sha256",
+          "type": "string"
+        },
+        "repetition": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repetition"
+        },
+        "run_file_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Run File Sha256",
+          "type": "string"
+        },
+        "run_id": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Run Id",
+          "type": "string"
+        },
+        "run_identity_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Run Identity Sha256",
+          "type": "string"
+        },
+        "sanction_score": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Sanction Score",
+          "type": "number"
+        },
+        "scored_authority_count": {
+          "minimum": 1,
+          "title": "Scored Authority Count",
+          "type": "integer"
+        },
+        "task_type": {
+          "enum": [
+            "citation_verification",
+            "document_audit",
+            "organic_document_audit"
+          ],
+          "title": "Task Type",
+          "type": "string"
+        },
+        "tool_evidence_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[0-9a-f]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tool Evidence Sha256"
+        },
+        "zero_false_positive_document_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Zero False Positive Document Rate"
+        }
+      },
+      "required": [
+        "run_id",
+        "task_type",
+        "condition",
+        "provider",
+        "model",
+        "model_query_count",
+        "scored_authority_count",
+        "sanction_score",
+        "fake_recall",
+        "prompt_and_output_schema_sha256",
+        "run_identity_sha256",
+        "finalized_run_identity_sha256",
+        "provider_request_attempts_sha256",
+        "predictions_file_sha256",
+        "run_file_sha256",
+        "metrics_file_sha256"
+      ],
+      "title": "SubmissionRun",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "attestation": {
+      "$ref": "#/$defs/SubmissionAttestation"
+    },
+    "benchmark_release_status": {
+      "enum": [
+        "development_public_gold",
+        "provisional_private_evaluation"
+      ],
+      "title": "Benchmark Release Status",
+      "type": "string"
+    },
+    "benchmark_version": {
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Benchmark Version",
+      "type": "string"
+    },
+    "conditions": {
+      "items": {
+        "enum": [
+          "closed_book",
+          "tool_assisted"
+        ],
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Conditions",
+      "type": "array"
+    },
+    "created_at": {
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Created At",
+      "type": "string"
+    },
+    "dataset_redistribution_statuses": {
+      "items": {
+        "enum": [
+          "cleared_public",
+          "private_evaluation_only"
+        ],
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Dataset Redistribution Statuses",
+      "type": "array"
+    },
+    "dataset_release_tiers": {
+      "items": {
+        "enum": [
+          "public_development_gold",
+          "human_adjudicated",
+          "constructed_control",
+          "provisional_model_assisted",
+          "unclassified_external"
+        ],
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Dataset Release Tiers",
+      "type": "array"
+    },
+    "dataset_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Dataset Sha256",
+      "type": "string"
+    },
+    "mock": {
+      "title": "Mock",
+      "type": "boolean"
+    },
+    "model_endpoint_type": {
+      "enum": [
+        "mock",
+        "hosted_api",
+        "open_weights",
+        "other"
+      ],
+      "title": "Model Endpoint Type",
+      "type": "string"
+    },
+    "model_name": {
+      "maxLength": 300,
+      "minLength": 1,
+      "title": "Model Name",
+      "type": "string"
+    },
+    "model_provider": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Model Provider",
+      "type": "string"
+    },
+    "model_query_count": {
+      "minimum": 1,
+      "title": "Model Query Count",
+      "type": "integer"
+    },
+    "model_revision": {
+      "maxLength": 300,
+      "minLength": 1,
+      "title": "Model Revision",
+      "type": "string"
+    },
+    "official": {
+      "const": false,
+      "default": false,
+      "title": "Official",
+      "type": "boolean"
+    },
+    "organization": {
+      "anyOf": [
+        {
+          "maxLength": 200,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Organization"
+    },
+    "publication": {
+      "$ref": "#/$defs/SubmissionPublication"
+    },
+    "run_count": {
+      "minimum": 1,
+      "title": "Run Count",
+      "type": "integer"
+    },
+    "runner_commit": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Runner Commit",
+      "type": "string"
+    },
+    "runner_dirty": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Runner Dirty"
+    },
+    "runs": {
+      "items": {
+        "$ref": "#/$defs/SubmissionRun"
+      },
+      "maxItems": 256,
+      "minItems": 1,
+      "title": "Runs",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "sanctionbench.submission.v1",
+      "default": "sanctionbench.submission.v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_result_index_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Source Result Index Sha256",
+      "type": "string"
+    },
+    "submission_id": {
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,159}$",
+      "title": "Submission Id",
+      "type": "string"
+    },
+    "submission_tier": {
+      "enum": [
+        "development_mock",
+        "self_reported"
+      ],
+      "title": "Submission Tier",
+      "type": "string"
+    },
+    "submitter_name": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Submitter Name",
+      "type": "string"
+    }
+  },
+  "required": [
+    "submission_id",
+    "created_at",
+    "benchmark_version",
+    "benchmark_release_status",
+    "submission_tier",
+    "submitter_name",
+    "model_provider",
+    "model_name",
+    "model_revision",
+    "model_endpoint_type",
+    "source_result_index_sha256",
+    "dataset_sha256",
+    "dataset_release_tiers",
+    "dataset_redistribution_statuses",
+    "runner_commit",
+    "runner_dirty",
+    "model_query_count",
+    "run_count",
+    "conditions",
+    "mock",
+    "runs",
+    "attestation",
+    "publication"
+  ],
+  "title": "SubmissionBundle",
+  "type": "object"
+}

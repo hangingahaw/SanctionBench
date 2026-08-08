@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "condition": "closed_book",
+    "config_sha256": "c93479dbbc5c86589bca173029b9698e0d6d7c605f7b634615f1a1b325522800",
+    "dataset_sha256": "5241f8f9e79c3b4cdfa033a5423c47c6bd2758098113353ca25e54562f748607",
+    "model": "deterministic-rule-based-v1",
+    "prompt_and_output_schema_sha256": "1ceb2ef45092a1f76e7854373d5f24fc849836a40e5bae0b11afe9e4c744e2c4",
+    "provider": "mock",
+    "provider_protocol_version": "deterministic-mock-v1",
+    "provider_runtime_identity": {
+      "protocol_version": "deterministic-mock-v1"
+    },
+    "reference_dataset_sha256": null,
+    "resource_budget": {
+      "approved_max_courtlistener_requests": 528,
+      "approved_max_provider_input_bytes": null,
+      "approved_max_provider_requests": null,
+      "maximum_courtlistener_lookups_per_run": 512,
+      "maximum_cumulative_checkpoint_write_bytes": 268435456,
+      "per_provider_request_input_byte_limit": 16777216,
+      "retry_inclusive_courtlistener_request_ceiling": 528,
+      "retry_inclusive_provider_input_byte_ceiling": 0,
+      "retry_inclusive_provider_request_ceiling": 0,
+      "runner_courtlistener_response_byte_limit": 262144
+    },
+    "runtime_source_sha256": "9682ca529e3027aaa265fceda43721e24a23aaac9fda934186068c67cc2660cb",
+    "schema_version": "sanctionbench.run_identity.v6",
+    "seed": 20260711,
+    "selected_ids": [
+      "sb-v1-cite-0003-a",
+      "sb-v1-cite-0003-b",
+      "sb-v1-cite-0014-a",
+      "sb-v1-cite-0014-b",
+      "sb-v1-cite-0016-a",
+      "sb-v1-cite-0016-b",
+      "sb-v1-cite-0017-a",
+      "sb-v1-cite-0017-b",
+      "sb-v1-cite-0023-a",
+      "sb-v1-cite-0023-b",
+      "sb-v1-cite-0030-a",
+      "sb-v1-cite-0030-b",
+      "sb-v1-cite-0031-a",
+      "sb-v1-cite-0031-b",
+      "sb-v1-cite-0033-a",
+      "sb-v1-cite-0033-b",
+      "sb-v1-cite-0036-a",
+      "sb-v1-cite-0036-b",
+      "sb-v1-cite-0038-a",
+      "sb-v1-cite-0038-b",
+      "sb-v1-cite-0050-a",
+      "sb-v1-cite-0050-b",
+      "sb-v1-cite-0071-a",
+      "sb-v1-cite-0071-b"
+    ],
+    "subset_sha256": "b12a4e78f19ace7a9ed178e21e91bf087cefb6dbdc36d5295bb081f275a41b88",
+    "task_type": "citation_verification",
+    "temporal_cutoff": null,
+    "tool_spec_version": null
+  },
+  "run_identity_sha256": "2d72760bc8e2163623b456020d14e9f75b28905c7da241f057bf340da41d4861"
+}

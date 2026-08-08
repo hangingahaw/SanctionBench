@@ -1,0 +1,391 @@
+{
+  "$defs": {
+    "GoldLabel": {
+      "enum": [
+        "real",
+        "nonexistent_case",
+        "fabricated_quote",
+        "misattributed_holding"
+      ],
+      "title": "GoldLabel",
+      "type": "string"
+    },
+    "OrganicAuthorityGold": {
+      "additionalProperties": false,
+      "properties": {
+        "case_name": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Case Name"
+        },
+        "citation_aliases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Citation Aliases",
+          "type": "array"
+        },
+        "citation_text": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Citation Text",
+          "type": "string"
+        },
+        "document_excerpt": {
+          "maxLength": 1500,
+          "minLength": 1,
+          "title": "Document Excerpt",
+          "type": "string"
+        },
+        "document_page": {
+          "minimum": 1,
+          "title": "Document Page",
+          "type": "integer"
+        },
+        "gold_label": {
+          "$ref": "#/$defs/GoldLabel"
+        },
+        "occurrence_id": {
+          "title": "Occurrence Id",
+          "type": "string"
+        },
+        "proposition": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Proposition"
+        },
+        "source_decision_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Decision Id"
+        },
+        "source_order_excerpt": {
+          "anyOf": [
+            {
+              "maxLength": 1500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Order Excerpt"
+        },
+        "source_order_page": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Order Page"
+        }
+      },
+      "required": [
+        "occurrence_id",
+        "citation_text",
+        "gold_label",
+        "document_page",
+        "document_excerpt"
+      ],
+      "title": "OrganicAuthorityGold",
+      "type": "object"
+    },
+    "OrganicDocumentNormalization": {
+      "additionalProperties": false,
+      "properties": {
+        "input_format": {
+          "const": "canonical_markdown",
+          "default": "canonical_markdown",
+          "title": "Input Format",
+          "type": "string"
+        },
+        "ocr_used": {
+          "title": "Ocr Used",
+          "type": "boolean"
+        },
+        "page_marker_contract": {
+          "const": "sanctionbench_page_comment_v1",
+          "default": "sanctionbench_page_comment_v1",
+          "title": "Page Marker Contract",
+          "type": "string"
+        },
+        "parser": {
+          "default": "liteparse",
+          "enum": [
+            "liteparse",
+            "deterministic_constructed_markdown"
+          ],
+          "title": "Parser",
+          "type": "string"
+        },
+        "parser_output_format": {
+          "default": "json",
+          "enum": [
+            "json",
+            "canonical_markdown"
+          ],
+          "title": "Parser Output Format",
+          "type": "string"
+        },
+        "parser_output_sha256": {
+          "title": "Parser Output Sha256",
+          "type": "string"
+        },
+        "parser_version": {
+          "title": "Parser Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "parser_version",
+        "ocr_used",
+        "parser_output_sha256"
+      ],
+      "title": "OrganicDocumentNormalization",
+      "type": "object"
+    },
+    "OrganicDocumentSourceDecision": {
+      "additionalProperties": false,
+      "properties": {
+        "case_name": {
+          "title": "Case Name",
+          "type": "string"
+        },
+        "decision_date": {
+          "title": "Decision Date",
+          "type": "string"
+        },
+        "decision_id": {
+          "title": "Decision Id",
+          "type": "string"
+        },
+        "order_sha256": {
+          "title": "Order Sha256",
+          "type": "string"
+        },
+        "order_url": {
+          "title": "Order Url",
+          "type": "string"
+        },
+        "source_format": {
+          "enum": [
+            "pdf",
+            "html",
+            "text"
+          ],
+          "title": "Source Format",
+          "type": "string"
+        }
+      },
+      "required": [
+        "decision_id",
+        "case_name",
+        "decision_date",
+        "order_url",
+        "order_sha256",
+        "source_format"
+      ],
+      "title": "OrganicDocumentSourceDecision",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "adjudicator_type": {
+      "enum": [
+        "human",
+        "model",
+        "deterministic"
+      ],
+      "title": "Adjudicator Type",
+      "type": "string"
+    },
+    "authorities": {
+      "items": {
+        "$ref": "#/$defs/OrganicAuthorityGold"
+      },
+      "maxItems": 512,
+      "title": "Authorities",
+      "type": "array"
+    },
+    "authority_inventory_complete": {
+      "const": true,
+      "title": "Authority Inventory Complete",
+      "type": "boolean"
+    },
+    "curation_method": {
+      "enum": [
+        "independent_human_double_review",
+        "frontier_model_double_review_with_court_source_adjudication",
+        "deterministic_constructed_control_from_verified_real_gold"
+      ],
+      "title": "Curation Method",
+      "type": "string"
+    },
+    "document_kind": {
+      "enum": [
+        "offending",
+        "clean_control"
+      ],
+      "title": "Document Kind",
+      "type": "string"
+    },
+    "document_markdown": {
+      "maxLength": 4000000,
+      "title": "Document Markdown",
+      "type": "string"
+    },
+    "document_markdown_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Document Markdown Sha256",
+      "type": "string"
+    },
+    "document_origin": {
+      "default": "filed_party_document",
+      "enum": [
+        "filed_party_document",
+        "constructed_verified_real_control"
+      ],
+      "title": "Document Origin",
+      "type": "string"
+    },
+    "document_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Document Sha256",
+      "type": "string"
+    },
+    "human_reviewed": {
+      "title": "Human Reviewed",
+      "type": "boolean"
+    },
+    "item_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Item Id",
+      "type": "string"
+    },
+    "normalization": {
+      "$ref": "#/$defs/OrganicDocumentNormalization"
+    },
+    "page_count": {
+      "minimum": 1,
+      "title": "Page Count",
+      "type": "integer"
+    },
+    "redistribution_status": {
+      "enum": [
+        "cleared_public",
+        "private_evaluation_only"
+      ],
+      "title": "Redistribution Status",
+      "type": "string"
+    },
+    "release_tier": {
+      "enum": [
+        "human_adjudicated",
+        "provisional_model_assisted",
+        "constructed_control"
+      ],
+      "title": "Release Tier",
+      "type": "string"
+    },
+    "review_receipt_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Review Receipt Sha256",
+      "type": "string"
+    },
+    "reviewer_count": {
+      "minimum": 0,
+      "title": "Reviewer Count",
+      "type": "integer"
+    },
+    "reviewer_types": {
+      "items": {
+        "enum": [
+          "human",
+          "model"
+        ],
+        "type": "string"
+      },
+      "maxItems": 16,
+      "title": "Reviewer Types",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "sanctionbench.organic_document.v1",
+      "default": "sanctionbench.organic_document.v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_decisions": {
+      "items": {
+        "$ref": "#/$defs/OrganicDocumentSourceDecision"
+      },
+      "maxItems": 512,
+      "title": "Source Decisions",
+      "type": "array"
+    },
+    "task_type": {
+      "const": "organic_document_audit",
+      "default": "organic_document_audit",
+      "title": "Task Type",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 1000,
+      "title": "Title",
+      "type": "string"
+    }
+  },
+  "required": [
+    "item_id",
+    "title",
+    "document_sha256",
+    "document_markdown",
+    "document_markdown_sha256",
+    "page_count",
+    "normalization",
+    "document_kind",
+    "authority_inventory_complete",
+    "authorities",
+    "review_receipt_sha256",
+    "reviewer_count",
+    "reviewer_types",
+    "adjudicator_type",
+    "human_reviewed",
+    "curation_method",
+    "release_tier",
+    "redistribution_status"
+  ],
+  "title": "OrganicDocumentGold",
+  "type": "object"
+}

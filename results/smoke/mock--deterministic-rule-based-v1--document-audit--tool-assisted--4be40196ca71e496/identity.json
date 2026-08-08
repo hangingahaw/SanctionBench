@@ -1,0 +1,38 @@
+{
+  "identity": {
+    "condition": "tool_assisted",
+    "config_sha256": "c93479dbbc5c86589bca173029b9698e0d6d7c605f7b634615f1a1b325522800",
+    "dataset_sha256": "d18c944f1e7f54d2343af80297282646686ceae9c282a879e6d991f273529bce",
+    "model": "deterministic-rule-based-v1",
+    "prompt_and_output_schema_sha256": "4177ec23027890d54d5b111ca9be8bf54ebb7e25a58c65f9b5c7f927ffed78f0",
+    "provider": "mock",
+    "provider_protocol_version": "deterministic-mock-v1",
+    "provider_runtime_identity": {
+      "protocol_version": "deterministic-mock-v1"
+    },
+    "reference_dataset_sha256": "5241f8f9e79c3b4cdfa033a5423c47c6bd2758098113353ca25e54562f748607",
+    "resource_budget": {
+      "approved_max_courtlistener_requests": 528,
+      "approved_max_provider_input_bytes": null,
+      "approved_max_provider_requests": null,
+      "maximum_courtlistener_lookups_per_run": 512,
+      "maximum_cumulative_checkpoint_write_bytes": 268435456,
+      "per_provider_request_input_byte_limit": 16777216,
+      "retry_inclusive_courtlistener_request_ceiling": 528,
+      "retry_inclusive_provider_input_byte_ceiling": 0,
+      "retry_inclusive_provider_request_ceiling": 0,
+      "runner_courtlistener_response_byte_limit": 262144
+    },
+    "runtime_source_sha256": "9682ca529e3027aaa265fceda43721e24a23aaac9fda934186068c67cc2660cb",
+    "schema_version": "sanctionbench.run_identity.v6",
+    "seed": 20260711,
+    "selected_ids": [
+      "sb-v1-document-001"
+    ],
+    "subset_sha256": "203edd45fddbb31b8e385bdf27d6936dd455323e9954301f80bd4f53b921713a",
+    "task_type": "document_audit",
+    "temporal_cutoff": null,
+    "tool_spec_version": "courtlistener_v4_citation_lookup.v6"
+  },
+  "run_identity_sha256": "4be40196ca71e496fd57203d85a830fe30f77798c2166f029f832f80949fefc8"
+}
